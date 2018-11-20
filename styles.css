@@ -36,7 +36,8 @@ p {
 	margin-top: 2em;
 }
 
-a {
+a,
+.highlight {
 	color: #78BEC3;
 }
 
