@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -9,19 +9,174 @@
 		<title>Crown Crates</title>
 	</head>
 	<body>
-		<h1 class="common">Crown Crates</h1>
-		<h2>Crown Crate Tracker has recorded</h2>
-		<h3>99,963</h3>
-		<h2>Crown Crates</h2>
-		<p>Oh? Something is happening... Check back on December 6th.</p>
-		<a href="https://docs.google.com/spreadsheets/d/1n1kdrywYmgjx290QwGJj9TT1Y8z4GfEMhvQ8kQnKL5g" target="_blank">Click here to view the drop rates spreadsheet for now.</a>
-		<p class="highlight">
-			<a href="https://docs.google.com/spreadsheets/d/1QA7M5TLIP4rLiXmkslxMee8u_yTguYWochKAzY8cktg" target="_blank">Français</a> |
-			<a href="https://docs.google.com/spreadsheets/d/1fvFAGn2bZNShQLVhHBEYHi2b3zfVh70bknPAzZs_p6k" target="_blank">Deutsch</a> |
-			<a href="https://docs.google.com/spreadsheets/d/1IG12b2ScdCUJn3_2lHPT8g9pkqnD574JaVksaPImm8c" target="_blank">日本語</a>
+		<div id="navbar">
+			<label id="menuButton" for="menuButtonCheckbox"><img src="images/misc/menu.png" alt="Collapse menu button"></label>
+			<a href="/"><img src="images/misc/logo.png" alt="Website logo">Crown Crates</a
+			><input id="menuButtonCheckbox" type="checkbox"
+			><ul>
+				<li class="legendary"><a href="contribute">Contribute</a></li
+				><li><a href="download">Download</a></li
+				><li><a href="about">About</a></li
+				><li><a href="contact">Contact</a></li>
+			</ul>
+		</div>
+
+		<h1 class="common">Crown Crates Beta</h1>
+		<p>
+			[Faunter] zone: Thank you for 100,000 crates!
+			Have a website.
+			Here's to another 100,000.
 		</p>
-		<div id="footer">
-			<a href="contact">Contact</a> | <a href="privacy">Privacy</a>
+
+		<img id="mainCrate" src="images/crates/3.png" alt="Crown Crate as it appears in ESO">
+
+		<h2>Drop Rates</h2>
+		<p>Faunter's <a class="textLink" href="download">Crown Crate Tracker</a> has recorded the following.</p>
+		<div class="wrapper">
+			<table>
+				<tr>
+					<td class="common rowHeader"><img src="images/crates/icons/3.png" alt="Crown Crate icon">Crown Crate</td>
+					<td class="stat">100,804 crates</td>
+				</tr>
+				<tr>
+					<td class="rowHeader"><img src="images/crates/icons/3-1.png" alt="Crown Crate normal card icon">Normal card</td>
+					<td class="stat">403,216 cards</td>
+				</tr>
+				<tr>
+					<td class="rowHeader"><img src="images/crates/icons/3-2.png" alt="Crown Crate bonus card icon">Bonus card</td>
+					<td class="stat">17,264 cards </td>
+				</tr>
+				<tr>
+					<td class="rowHeader"><img src="images/misc/logo.png" alt="Crown Crate bonus drop icon">Bonus card drop rate</td>
+					<td class="stat">17.13% chance</td>
+				</tr>
+			</table>
+		</div>
+
+		<h2>Recorded Crates</h2>
+		<div class="wrapper">
+			<p>All crates ever recorded are taken into account, and it is assumed that drop rates are invariable and do not increase after bad luck.</p>
+			<table>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="xanmeer"><img src="images/crates/icons/12.png" alt="Xanmeer Crate icon">Xanmeer Crate</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="ouroboros"><img src="images/crates/icons/11.png" alt="Ouroboros Crown Crate icon">Ouroboros Crown Crate</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="hollowjack"><img src="images/crates/icons/10.png" alt="Hollowjack Crate icon">Hollowjack Crate</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="psijicvault"><img src="images/crates/icons/9.png" alt="Psijic Vault Crate icon">Psijic Vault Crate</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="scalecaller"><img src="images/crates/icons/8.png" alt="Scalecaller Crate icon">Scalecaller Crate</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="flameatronach"><img src="images/crates/icons/6.png" alt="Flame Atronach Crate icon">Flame Atronach Crate</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="reapersharvest"><img src="images/crates/icons/5.png" alt="Reaper's Harvest Crate icon">Reaper's Harvest Crate</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="dwarven"><img src="images/crates/icons/4.png" alt="Dwarven Crate icon">Dwarven Crate</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="wildhunt"><img src="images/crates/icons/2.png" alt="Wild Hunt Crate icon">Wild Hunt Crate</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="stormatronach"><img src="images/crates/icons/1.png" alt="Storm Atronach Crate icon">Storm Atronach Crate</a></td></tr>
+			</table>
+		</div>
+
+		<h2>Drop Rate Supporters</h2>
+		<a href="#_" class="cardPreview" id="example1"><span class="cardPreviewAlign"></span><img src="images/supporters/cards/example1.png" alt="Supporter custom card"></a>
+		<div class="wrapper">
+			<p>
+				These community members are held in high honor.
+				You can <a class="textLink" href="https://www.patreon.com/join/faunter" target="_blank">join their ranks</a>, should you wish to do so.
+			</p>
+			<table>
+				<tr class="fullRowLink"><td class="radiant rowHeader"><a href="#example1"><img src="images/supporters/icons/example1.png" alt="Supporter custom icon">Radiant Apex example with custom icon and card (Try clicking!)</a></td></tr>
+				<tr><td class="apex rowHeader"><img src="images/supporters/icons/example2.png" alt="Supporter custom icon">Apex example with custom icon</td></tr>
+				<tr><td class="legendary rowHeader"><img src="images/misc/logo.png" alt="Supporter default icon">Legendary example</td></tr>
+			</table>
+		</div>
+
+		<h2>Datamined Crown Crates</h2>
+		<a href="#_" class="cardPreview" id="14"><span class="cardPreviewAlign"></span><img src="images/crates/14-1.png" alt="The Steed's Bounty Crate card"></a>
+		<a href="#_" class="cardPreview" id="20"><span class="cardPreviewAlign"></span><img src="images/crates/20-1.png" alt="Crown Classics Volume 2 Crate card"></a>
+		<a href="#_" class="cardPreview" id="baandari"><span class="cardPreviewAlign"></span><img src="images/crates/baandari-1.png" alt="Baandari Peddler Crate card"></a>
+		<div class="wrapper">
+			<p>These crown crates are present in the game's files, but they haven't been released yet.</p>
+			<table>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="#14"><img src="images/crates/icons/14.png" alt="The Steed's Bounty Crate icon">The Steed's Bounty Crate</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="#20"><img src="images/crates/icons/20.png" alt="Crown Classics Volume 2 Crate icon">Crown Classics Volume 2 Crate</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="#baandari"><img src="images/misc/missing.png" alt="Baandari Peddler Crate icon">Baandari Peddler Crate</a></td></tr>
+			</table>
+		</div>
+
+		<h2>Spreadsheet Format</h2>
+		<p>Take a sip and go on a journey through time and space.</p>
+		<div class="wrapper">
+			<table>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="https://docs.google.com/spreadsheets/d/1n1kdrywYmgjx290QwGJj9TT1Y8z4GfEMhvQ8kQnKL5g" target="_blank"><img src="images/misc/potion1.png" alt="English drop rates spreadsheet icon">Potion of Temporal Perception</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="https://docs.google.com/spreadsheets/d/1QA7M5TLIP4rLiXmkslxMee8u_yTguYWochKAzY8cktg" target="_blank"><img src="images/misc/potion2.png" alt="French drop rates spreadsheet icon">Potion de Connaissances</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="https://docs.google.com/spreadsheets/d/1fvFAGn2bZNShQLVhHBEYHi2b3zfVh70bknPAzZs_p6k" target="_blank"><img src="images/misc/potion3.png" alt="German drop rates spreadsheet icon">Trank der Meisterschaft</a></td></tr>
+				<tr class="fullRowLink"><td class="common rowHeader"><a href="https://docs.google.com/spreadsheets/d/1IG12b2ScdCUJn3_2lHPT8g9pkqnD574JaVksaPImm8c" target="_blank"><img src="images/misc/potion4.png" alt="Japanese drop rates spreadsheet icon">&#12363;&#12375;&#12371;&#12373;&#12398;&#31278;</a></td></tr>
+			</table>
+		</div>
+
+		<div class="wrapper" id="footer">
+			<p>
+				Content &#169; 2018 Faunter.
+				Crown crate icons and images &#169; ZeniMax Online Studios.
+			</p>
+			<p>
+				This website is not created by, affiliated with, or sponsored by ZeniMax Media Inc. or its affiliates.
+				ZeniMax, Bethesda Softworks, ZeniMax Online Studios, The Elder Scrolls&#174;, and all related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the US and/or other countries.
+				All Rights Reserved.
+			</p>
+			<p>The use of icons and images for the purpose of informing and educating is believed to fall under the fair use clause of copyright law.</p>
+			<p><a class="textLink" href="contact">Contact</a><span class="highlight"> | </span><a class="textLink" href="privacy">Privacy</a></p>
 		</div>
 	</body>
 </html>
+
+<!--
+
+Property of Gold Coast Trading Company
+-Faunter, Crown Crate Operations Manager
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$                                                     $
+$                       $$$$$$$                       $
+$                   $$$$$$$$$$$$$$$                   $
+$                 $$$$$$$$$$$$$$$$$$$                 $
+$               $$$$$$$$$$$$$$$$$$$$$$$               $
+$             $$$$$$$$            $$$$$$$             $
+$            $$$$$$$      $$$$$     $$$$$$            $
+$           $$$$$$      $$$$$$$$$     $$$$$           $
+$          $$$$$       $$$$$$$$$$$     $$$$$          $
+$         $$$$$       $$$      $$$$      $$$$         $
+$        $$$$$       $$$        $$$       $$$         $
+$        $$$$    $   $$$       $$$$$       $$$        $
+$       $$$$    $$   $$       $$ $$$   $   $$$$       $
+$       $$$$   $$$   $$      $$$  $$   $$   $$$       $
+$      $$$$   $$$$   $$   $$$$$$  $$   $$   $$$$      $
+$      $$$$   $$$$   $$$   $$$$$  $$   $$$   $$$      $
+$ $$$$$$$$   $$$$$    $$$$$$$$$  $$$   $$$    $$$     $
+$ $$$$$$$$   $$$$     $$$$$$$$$  $$$  $$$$$    $$     $
+$  $$$$$$$  $$          $$$$$   $$$   $$$$$$    $     $
+$  $$$$$$   $                  $$$$     $$$$    $     $
+$   $$$$$        $$$$$$$     $$$$$        $$   $      $
+$   $$$$$      $$$$$$$$$$$$$$$$$$              $      $
+$    $$$$     $$$$$$$$$$$$$$$$$$$  $$$$$       $$     $
+$    $$$$    $$$$      $$$$$$$$  $$$$$$$$$     $$$    $
+$     $$$   $$$$   $     $$$$$$  $$$$$$$$$$    $$$    $
+$      $$   $$$$$$$$$$$   $$$$  $$$$    $$$    $$$$   $
+$      $$  $$$ $$$$$$$$$  $$$$  $$$$$    $$$  $$$$$   $
+$      $$  $$$    $$$$$$   $$$  $$$$$    $$$  $$$$$$  $
+$     $$$  $$$     $$$$$$  $$$  $$$$$     $$  $$$$$$  $
+$     $$   $$$      $ $$$  $$$  $$$$     $$$  $$$$$$  $
+$     $$$  $$$        $$$   $$$  $$$     $$$ $$$$$$$$ $
+$      $$$$$$$$       $$$   $$$   $$$    $$$$$$$      $
+$      $$$$$$$$$     $$$     $$$   $$   $$$$$$$$      $
+$       $$$$ $$$$$$$$$$       $$$$$$$ $$$$$$$$$       $
+$       $$$$$ $$$$$$$$    $    $$$$$$$$$$$$$$$$       $
+$        $$$$   $$$$$    $$$    $$$$$$$$  $$$$        $
+$        $$$$$          $$$$$            $$$$$        $
+$         $$$$$        $$$$$$$          $$$$$         $
+$          $$$$$     $$$$$$$$$$$       $$$$$          $
+$           $$$$$       $$$$$$$       $$$$$           $
+$            $$$$$$                 $$$$$$            $
+$             $$$$$$$$           $$$$$$$$             $
+$               $$$$$$$$$$$$$$$$$$$$$$$               $
+$                 $$$$$$$$$$$$$$$$$$$                 $
+$                   $$$$$$$$$$$$$$$                   $
+$                       $$$$$$$                       $
+$                                                     $
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-->
