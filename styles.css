@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	outline: none;
 }
 
 html {
@@ -142,7 +143,6 @@ h3.common,
 	width: 100%;
 	height: 100%;
 	border: 1px solid;
-	outline: none;
 }
 
 .cardPreview img {
