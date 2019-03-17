@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130493860-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'UA-130493860-2');
+		</script>
+
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Dragonscale Crates - Item drop rates</title>
 		<meta name="description" content="Dragonscale Crate item drop rates for The Elder Scrolls Online.">
-		<link rel="stylesheet" href="styles.css" type="text/css">
 		<link rel="canonical" href="https://www.crowncrates.com/dragonscale">
-		<title>Dragonscale Crates</title>
+
+		<link rel="stylesheet" href="styles.css" type="text/css">
 	</head>
 	<body>
 		<div id="navbar">
-			<label id="menuButton" for="menuButtonCheckbox"><img src="images/misc/menu.png" alt="Collapse menu button"></label>
+			<label id="menu-button" for="menu-button-checkbox"><img src="images/misc/menu.png" alt="Collapse menu button"></label>
 			<a href="/"><img src="images/misc/logo.png" alt="Website logo">Crown Crates</a
-			><input id="menuButtonCheckbox" type="checkbox"
+			><input id="menu-button-checkbox" type="checkbox"
 			><ul>
-				<li class="legendary"><a href="contribute">Contribute</a></li
+				<li class="legendary"><a href="donate">Donate!</a></li
 				><li><a href="download">Download</a></li
 				><li><a href="about">About</a></li
 				><li><a href="contact">Contact</a></li>
@@ -23,27 +33,27 @@
 
 		<h1 class="common">Dragonscale Crates</h1>
 
-		<img id="mainImage" src="images/crown crates/crates/24.png" alt="Dragonscale Crate as it appears in ESO">
+		<img class="responsive-image" src="images/crown crates/crates/24.png" alt="Dragonscale Crate as it appears in ESO">
 
 		<h2>Crown Crates</h2>
-		<p>Faunter's <a class="textLink" href="download">Crown Crate Tracker</a> has recorded the following.</p>
-		<a href="#_" class="cardPreview" id="cardback"><span class="cardPreviewAlign"></span><img src="images/card backs/cards/24.png" alt="Dragonscale Crate card"></a>
+		<p>Faunter's <a class="text-link" href="download">Crown Crate Tracker</a> has recorded the following.</p>
+		<a href="#_" class="card-preview" id="cardback"><span class="card-preview-align"></span><img src="images/card backs/cards/24.png" alt="Dragonscale Crate card"></a>
 		<div class="wrapper">
 			<table>
 				<tr>
-					<td class="common rowHeader"><a href="#cardback"><img src="images/crown crates/icons/24.png" alt="Dragonscale Crate icon">Dragonscale Crate</a></td>
+					<td class="common row-header"><a href="#cardback"><img src="images/crown crates/icons/24.png" alt="Dragonscale Crate icon">Dragonscale Crate</a></td>
 					<td class="stat">0 crates</td>
 				</tr>
 				<tr>
-					<td class="rowHeader"><img src="images/card backs/icons/normal/24.png" alt="Dragonscale Crate normal card icon">Normal card</td>
+					<td class="row-header"><img src="images/card backs/icons/normal/24.png" alt="Dragonscale Crate normal card icon">Normal card</td>
 					<td class="stat">0 cards</td>
 				</tr>
 				<tr>
-					<td class="rowHeader"><img src="images/card backs/icons/bonus/24.png" alt="Dragonscale Crate bonus card icon">Bonus card</td>
+					<td class="row-header"><img src="images/card backs/icons/bonus/24.png" alt="Dragonscale Crate bonus card icon">Bonus card</td>
 					<td class="stat">0 cards </td>
 				</tr>
 				<tr>
-					<td class="rowHeader"><img src="images/misc/logo.png" alt="Dragonscale Crate bonus drop icon">Bonus card drop rate</td>
+					<td class="row-header"><img src="images/misc/logo.png" alt="Dragonscale Crate bonus drop icon">Bonus card drop rate</td>
 					<td class="stat">0.00% chance</td>
 				</tr>
 			</table>
@@ -56,64 +66,64 @@
 				Its rewards are unknown and the drop rates are unavailable.
 			</p>
 			<table>
-				<tr id="dropTableHeader">
-					<td id="dropTableIcon"><img src="images/misc/logo.png" alt="Drop table icon"></td>
-					<td class="obtainedDrop">Reward 1</td>
-					<td class="obtainedDrop">Reward 2</td>
-					<td class="obtainedDrop">Bonus card</td>
-					<td class="obtainedDrop">Reward 3</td>
-					<td class="obtainedDrop">Reward 4</td>
+				<tr id="drop-table-header">
+					<td id="drop-table-icon"><img src="images/misc/logo.png" alt="Drop table icon"></td>
+					<td class="obtained-drop">Reward 1</td>
+					<td class="obtained-drop">Reward 2</td>
+					<td class="obtained-drop">Bonus card</td>
+					<td class="obtained-drop">Reward 3</td>
+					<td class="obtained-drop">Reward 4</td>
 				</tr>
 				<tr>
-					<td class="radiant rowHeader"><img src="images/crown crates/icons/24.png" alt="Radiant Apex Drop icon">Radiant Apex Drop</td>
-					<td class="unobtainedDrop" suffix="from Reward 1">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 2">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Bonus card">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 3">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 4">Impossible</td>
+					<td class="radiant row-header"><img src="images/crown crates/icons/24.png" alt="Radiant Apex Drop icon">Radiant Apex Drop</td>
+					<td class="unobtained-drop" suffix="from Reward 1">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 2">Impossible</td>
+					<td class="unobtained-drop" suffix="from Bonus card">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 3">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 4">Impossible</td>
 				</tr>
 				<tr>
-					<td class="apex rowHeader"><img src="images/crown crates/icons/24.png" alt="Apex Drop icon">Apex Drop</td>
-					<td class="unobtainedDrop" suffix="from Reward 1">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 2">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Bonus card">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 3">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 4">Impossible</td>
+					<td class="apex row-header"><img src="images/crown crates/icons/24.png" alt="Apex Drop icon">Apex Drop</td>
+					<td class="unobtained-drop" suffix="from Reward 1">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 2">Impossible</td>
+					<td class="unobtained-drop" suffix="from Bonus card">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 3">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 4">Impossible</td>
 				</tr>
-					<td class="legendary rowHeader"><img src="images/crown crates/icons/24.png" alt="Legendary Drop icon">Legendary Drop</td>
-					<td class="unobtainedDrop" suffix="from Reward 1">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 2">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Bonus card">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 3">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 4">Impossible</td>
+					<td class="legendary row-header"><img src="images/crown crates/icons/24.png" alt="Legendary Drop icon">Legendary Drop</td>
+					<td class="unobtained-drop" suffix="from Reward 1">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 2">Impossible</td>
+					<td class="unobtained-drop" suffix="from Bonus card">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 3">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 4">Impossible</td>
 				</tr>
-					<td class="epic rowHeader"><img src="images/crown crates/icons/24.png" alt="Epic Drop icon">Epic Drop</td>
-					<td class="unobtainedDrop" suffix="from Reward 1">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 2">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Bonus card">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 3">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 4">Impossible</td>
+					<td class="epic row-header"><img src="images/crown crates/icons/24.png" alt="Epic Drop icon">Epic Drop</td>
+					<td class="unobtained-drop" suffix="from Reward 1">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 2">Impossible</td>
+					<td class="unobtained-drop" suffix="from Bonus card">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 3">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 4">Impossible</td>
 				</tr>
-					<td class="superior rowHeader"><img src="images/crown crates/icons/24.png" alt="Superior Drop icon">Superior Drop</td>
-					<td class="unobtainedDrop" suffix="from Reward 1">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 2">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Bonus card">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 3">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 4">Impossible</td>
+					<td class="superior row-header"><img src="images/crown crates/icons/24.png" alt="Superior Drop icon">Superior Drop</td>
+					<td class="unobtained-drop" suffix="from Reward 1">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 2">Impossible</td>
+					<td class="unobtained-drop" suffix="from Bonus card">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 3">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 4">Impossible</td>
 				</tr>
-					<td class="fine rowHeader"><img src="images/crown crates/icons/24.png" alt="Fine Drop icon">Fine Drop</td>
-					<td class="unobtainedDrop" suffix="from Reward 1">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 2">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Bonus card">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 3">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 4">Impossible</td>
+					<td class="fine row-header"><img src="images/crown crates/icons/24.png" alt="Fine Drop icon">Fine Drop</td>
+					<td class="unobtained-drop" suffix="from Reward 1">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 2">Impossible</td>
+					<td class="unobtained-drop" suffix="from Bonus card">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 3">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 4">Impossible</td>
 				</tr>
-					<td class="common rowHeader"><img src="images/crown crates/icons/24.png" alt="Common Drop icon">Common Drop</td>
-					<td class="unobtainedDrop" suffix="from Reward 1">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 2">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Bonus card">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 3">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 4">Impossible</td>
+					<td class="common row-header"><img src="images/crown crates/icons/24.png" alt="Common Drop icon">Common Drop</td>
+					<td class="unobtained-drop" suffix="from Reward 1">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 2">Impossible</td>
+					<td class="unobtained-drop" suffix="from Bonus card">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 3">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 4">Impossible</td>
 				</tr>
 			</table>
 		</div>
@@ -129,7 +139,7 @@
 				All Rights Reserved.
 			</p>
 			<p>The use of icons and images for the purpose of informing and educating is believed to fall under the fair use clause of copyright law.</p>
-			<p><a class="textLink" href="contact">Contact</a><span class="highlight"> | </span><a class="textLink" href="privacy">Privacy</a></p>
+			<p><a class="text-link" href="contact">Contact</a><span class="highlight"> | </span><a class="text-link" href="privacy">Privacy</a></p>
 		</div>
 	</body>
 </html>

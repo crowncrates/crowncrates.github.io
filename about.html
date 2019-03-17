@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130493860-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'UA-130493860-2');
+		</script>
+
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Crown crate item drop rates additional information.">
-		<link rel="stylesheet" href="styles.css" type="text/css">
-		<link rel="canonical" href="https://www.crowncrates.com/about">
+
 		<title>Crown Crates - About</title>
+		<meta name="description" content="Crown crate item drop rates additional information.">
+		<link rel="canonical" href="https://www.crowncrates.com/about">
+
+		<link rel="stylesheet" href="styles.css" type="text/css">
 	</head>
 	<body>
 		<div id="navbar">
-			<label id="menuButton" for="menuButtonCheckbox"><img src="images/misc/menu.png" alt="Collapse menu button"></label>
+			<label id="menu-button" for="menu-button-checkbox"><img src="images/misc/menu.png" alt="Collapse menu button"></label>
 			<a href="/"><img src="images/misc/logo.png" alt="Website logo">Crown Crates</a
-			><input id="menuButtonCheckbox" type="checkbox"
+			><input id="menu-button-checkbox" type="checkbox"
 			><ul>
-				<li class="legendary"><a href="contribute">Contribute</a></li
+				<li class="legendary"><a href="donate">Donate!</a></li
 				><li><a href="download">Download</a></li
 				><li><a href="about">About</a></li
 				><li><a href="contact">Contact</a></li>
@@ -22,32 +32,28 @@
 		</div>
 
 		<h1 class="common">About</h1>
-		<h2>What are Crown Crates?</h2>
-		<div class="wrapper">
+		<div class="wrapper major-container">
+			<h2 class="major-heading">What are Crown Crates?</h2>
 			<p class="description">
-				Crown crates are <a class="textLink" href="https://en.wikipedia.org/wiki/Loot_box" target="_blank">loot boxes</a> in <a class="textLink" href="https://www.elderscrollsonline.com" target="_blank">The Elder Scrolls Online</a>.
+				Crown crates are <a class="text-link" href="https://en.wikipedia.org/wiki/Loot_box" target="_blank">loot boxes</a> in <a class="text-link" href="https://www.elderscrollsonline.com" target="_blank">The Elder Scrolls Online</a>.
 				They are available for purchase in the crown store, and are also sometimes available through other means.
 				There are several different types of crown crates, and the rewards they contain are all related to a specific theme.
 				New crown crates are released through the crown store in quarterly seasons.
 				Various crates will often make surprise reappearances in the store as limited time offers.
 				Crown crates contain 4 random rewards, and sometimes, if you're lucky, you can get a special 5th card as a bonus.
 			</p>
-		</div>
 
-		<h2>Who is Faunter?</h2>
-		<div class="wrapper">
+			<h2>Who is Faunter?</h2>
 			<p class="description">
 				Faunter is my character's name in ESO.
 				I'm from Montr&#233;al, Canada, and I've been playing the game since beta.
 				I've always been fascinated by numbers, statistics, and probability.
 				When crown crates were introduced to the game, I started keeping track of my own drop rates for fun.
 				However, I quickly realized how beneficial it would be to the community if everyone pooled their drops together to produce a larger sample size.
-				I began working on a <a class="textLink" href="download">Crown Crate Tracker</a> addon, and, soon after, released it to the public.
+				I began working on a <a class="text-link" href="download">Crown Crate Tracker</a> addon, and, soon after, released it to the public.
 			</p>
-		</div>
 
-		<h2>Disclaimer</h2>
-		<div class="wrapper">
+			<h2>Disclaimer</h2>
 			<p class="description">
 				This project is in no way meant to slander or expose the crown crate system, or to discourage people from purchasing crown crates.
 				It is being conducted from a purely impartial standpoint.
@@ -55,27 +61,27 @@
 			</p>
 		</div>
 
-		<h2>Frequently asked questions</h2>
-		<div class="wrapper majorContainer">
-			<h3 class="majorHeading">How does the game decide which rewards I will receive from my crates?</h3>
+		<h1>Frequently asked questions</h1>
+		<div class="wrapper major-container">
+			<h2 class="major-heading">How does the game decide which rewards I will receive from my crates?</h2>
 			<p>
 				Each reward slot has restrictions on the rarity of items it can produce.
 				These restrictions slightly differ from crate to crate, so I've included a special table on each crate page to showcase the possibilities.
 				Keep in mind that every time you open a new crate, the card positions are randomized, so your rewards might appear in a different order.
 			</p>
 
-			<h3>How can I include my crown crate results in the drop rates?</h3>
+			<h2>How can I include my crown crate results in the drop rates?</h2>
 			<p>
 				I'm glad you asked!
 				The drop rates found on this website are calculated using crates opened by Crown Crate Tracker users on the live servers.
 
-				To contribute, simply <a class="textLink" href="download">download the addon</a>. (Sorry, console players!)
+				To contribute, simply <a class="text-link" href="download">download the addon</a>. (Sorry, console players!)
 
 				After that, just open crown crates as you normally would.
 				The addon automatically saves crates to your personal history and submits them through the in-game mail system.
 			</p>
 
-			<h3>The addon said my crate results were submitted. How come the drop rates weren't updated?</h3>
+			<h2>My results were submitted. How come the drop rates weren't updated?</h2>
 			<p>
 				The drop rates are not updated in real-time.
 				Crate data is added manually in batches due to API limitations imposed by ESO.
@@ -87,17 +93,17 @@
 				Ease of use is key for a project such as this one, so crate results are submitted through the in-game mail system.
 			</p>
 
-			<h3>The drop rates layout used to be different before. What happened?</h3>
+			<h2>The drop rates layout used to be different before. What happened?</h2>
 			<p>
 				This website previously redirected all traffic to a public spreadsheet that contained the drop rates.
 				If you prefer the old format, you can take a sip of this <a class="common" href="https://docs.google.com/spreadsheets/d/1n1kdrywYmgjx290QwGJj9TT1Y8z4GfEMhvQ8kQnKL5g" target="_blank">[Potion of Temporal Perception]</a>.
 				The spreadsheet is maintained in conjunction with the website.
 			</p>
 
-			<h3>I have another question!</h3>
+			<h2>I have another question!</h2>
 			<p>
 				Please let me know what you think, after you've had a chance to collect your thoughts.
-				I can be reached at <a class="textLink" href="mailto:faunter@crowncrates.com">faunter@crowncrates.com</a>, and my favorite crate is the Storm Atronach Crate.
+				I can be reached at <a class="text-link" href="mailto:faunter@crowncrates.com">faunter@crowncrates.com</a>, and my favorite crate is the Storm Atronach Crate.
 				Thanks, and have fun.
 			</p>
 		</div>
@@ -113,7 +119,7 @@
 				All Rights Reserved.
 			</p>
 			<p>The use of icons and images for the purpose of informing and educating is believed to fall under the fair use clause of copyright law.</p>
-			<p><a class="textLink" href="contact">Contact</a><span class="highlight"> | </span><a class="textLink" href="privacy">Privacy</a></p>
+			<p><a class="text-link" href="contact">Contact</a><span class="highlight"> | </span><a class="text-link" href="privacy">Privacy</a></p>
 		</div>
 	</body>
 </html>

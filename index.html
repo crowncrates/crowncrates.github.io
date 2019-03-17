@@ -1,53 +1,97 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130493860-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'UA-130493860-2');
+		</script>
+
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Crown Crates - Item drop rates</title>
 		<meta name="description" content="Crown crate item drop rates for The Elder Scrolls Online.">
-		<link rel="stylesheet" href="styles.css" type="text/css">
 		<link rel="canonical" href="https://www.crowncrates.com">
-		<title>Crown Crates</title>
+
+		<link rel="stylesheet" href="styles.css" type="text/css">
 	</head>
 	<body>
 		<div id="navbar">
-			<label id="menuButton" for="menuButtonCheckbox"><img src="images/misc/menu.png" alt="Collapse menu button"></label>
+			<label id="menu-button" for="menuButtonCheckbox"><img src="images/misc/menu.png" alt="Collapse menu button"></label>
 			<a href="/"><img src="images/misc/logo.png" alt="Website logo">Crown Crates</a
-			><input id="menuButtonCheckbox" type="checkbox"
+			><input id="menu-button-checkbox" type="checkbox"
 			><ul>
-				<li class="legendary"><a href="contribute">Contribute</a></li
+				<li class="legendary"><a href="donate">Donate!</a></li
 				><li><a href="download">Download</a></li
 				><li><a href="about">About</a></li
 				><li><a href="contact">Contact</a></li>
 			</ul>
 		</div>
 
+		<h1>
+			Xanmeer Crates
+			<p id="countdown" class="fine">Ending soon</p>
+		</h1>
+		<div class="wrapper">
+			<a class="announcement xanmeer" href="xanmeer">
+				<img class="responsive-image" src="images/announcements/announcement.png" alt="Xanmeer Crate announcement">
+			</a>
+		</div>
+		<script>
+			var expireDate = new Date(Date.UTC(2019, 02, 28, 15, 00, 00, 00)).getTime();
+
+			var tickInterval = setInterval(doCountdownTick, 1000);
+			doCountdownTick();
+
+			function doCountdownTick() {
+
+				var currentTime = new Date().getTime();
+				var timeLeft = expireDate - currentTime;
+
+				var days = ("0" + Math.floor(timeLeft / (1000 * 60 * 60 * 24))).slice(-2);
+				var hours = ("0" + Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
+				var minutes = ("0" + Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
+				var seconds = ("0" + Math.floor((timeLeft % (1000 * 60)) / 1000)).slice(-2);
+
+				if (timeLeft > 0) {
+					document.getElementById("countdown").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
+				} else {
+					clearInterval(tickInterval);
+					document.getElementById("countdown").innerHTML = "00:00:00:00";
+				}
+			}
+		</script>
+		<p>
+			The privacy policy has been updated.
+			Please <a class="text-link" href="privacy">take a look</a>.
+		</p>
+
 		<h1 class="common">Crown Crates</h1>
 
-		<!-- announcement
-		<p></p>
-		-->
-
-		<img id="mainImage" src="images/crown crates/crates/3.png" alt="Crown Crate as it appears in ESO">
+		<img class="responsive-image" src="images/crown crates/crates/3.png" alt="Crown Crate as it appears in ESO">
 
 		<h2>Crown Crates</h2>
-		<p>Faunter's <a class="textLink" href="download">Crown Crate Tracker</a> has recorded the following.</p>
+		<p>Faunter's <a class="text-link" href="download">Crown Crate Tracker</a> has recorded the following.</p>
 		<div class="wrapper">
 			<table>
 				<tr>
-					<td class="common rowHeader"><img src="images/crown crates/icons/3.png" alt="Crown Crate icon">Crown Crate</td>
-					<td class="stat">115,711 crates</td>
+					<td class="common row-header"><img src="images/crown crates/icons/3.png" alt="Crown Crate icon">Crown Crate</td>
+					<td class="stat">117,120 crates</td>
 				</tr>
 				<tr>
-					<td class="rowHeader"><img src="images/card backs/icons/normal/3.png" alt="Crown Crate normal card icon">Normal card</td>
-					<td class="stat">462,844 cards</td>
+					<td class="row-header"><img src="images/card backs/icons/normal/3.png" alt="Crown Crate normal card icon">Normal card</td>
+					<td class="stat">468,480 cards</td>
 				</tr>
 				<tr>
-					<td class="rowHeader"><img src="images/card backs/icons/bonus/3.png" alt="Crown Crate bonus card icon">Bonus card</td>
-					<td class="stat">19,754 cards </td>
+					<td class="row-header"><img src="images/card backs/icons/bonus/3.png" alt="Crown Crate bonus card icon">Bonus card</td>
+					<td class="stat">19,986 cards </td>
 				</tr>
 				<tr>
-					<td class="rowHeader"><img src="images/misc/logo.png" alt="Crown Crate bonus drop icon">Bonus card drop rate</td>
-					<td class="stat">17.07% chance</td>
+					<td class="row-header"><img src="images/misc/logo.png" alt="Crown Crate bonus drop icon">Bonus card drop rate</td>
+					<td class="stat">17.06% chance</td>
 				</tr>
 			</table>
 		</div>
@@ -56,16 +100,16 @@
 		<div class="wrapper">
 			<p>It is assumed that the drop rates are constant, have never changed, do not increase after bad luck, and are the same for everyone.</p>
 			<table>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="xanmeer"><img src="images/crown crates/icons/12.png" alt="Xanmeer Crate icon">Xanmeer Crate</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="ouroboros"><img src="images/crown crates/icons/11.png" alt="Ouroboros Crown Crate icon">Ouroboros Crown Crate</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="hollowjack"><img src="images/crown crates/icons/10.png" alt="Hollowjack Crate icon">Hollowjack Crate</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="psijicvault"><img src="images/crown crates/icons/9.png" alt="Psijic Vault Crate icon">Psijic Vault Crate</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="scalecaller"><img src="images/crown crates/icons/8.png" alt="Scalecaller Crate icon">Scalecaller Crate</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="flameatronach"><img src="images/crown crates/icons/6.png" alt="Flame Atronach Crate icon">Flame Atronach Crate</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="reapersharvest"><img src="images/crown crates/icons/5.png" alt="Reaper's Harvest Crate icon">Reaper's Harvest Crate</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="dwarven"><img src="images/crown crates/icons/4.png" alt="Dwarven Crate icon">Dwarven Crate</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="wildhunt"><img src="images/crown crates/icons/2.png" alt="Wild Hunt Crate icon">Wild Hunt Crate</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="stormatronach"><img src="images/crown crates/icons/1.png" alt="Storm Atronach Crate icon">Storm Atronach Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="xanmeer"><img src="images/crown crates/icons/12.png" alt="Xanmeer Crate icon">Xanmeer Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="ouroboros"><img src="images/crown crates/icons/11.png" alt="Ouroboros Crown Crate icon">Ouroboros Crown Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="hollowjack"><img src="images/crown crates/icons/10.png" alt="Hollowjack Crate icon">Hollowjack Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="psijicvault"><img src="images/crown crates/icons/9.png" alt="Psijic Vault Crate icon">Psijic Vault Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="scalecaller"><img src="images/crown crates/icons/8.png" alt="Scalecaller Crate icon">Scalecaller Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="flameatronach"><img src="images/crown crates/icons/6.png" alt="Flame Atronach Crate icon">Flame Atronach Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="reapersharvest"><img src="images/crown crates/icons/5.png" alt="Reaper's Harvest Crate icon">Reaper's Harvest Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="dwarven"><img src="images/crown crates/icons/4.png" alt="Dwarven Crate icon">Dwarven Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="wildhunt"><img src="images/crown crates/icons/2.png" alt="Wild Hunt Crate icon">Wild Hunt Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="stormatronach"><img src="images/crown crates/icons/1.png" alt="Storm Atronach Crate icon">Storm Atronach Crate</a></td></tr>
 			</table>
 		</div>
 
@@ -73,16 +117,16 @@
 		<div class="wrapper">
 			<p>
 				These community members are held in high honor.
-				You can <a class="textLink" href="https://www.patreon.com/faunter" target="_blank">join their ranks</a> by showing your support.
+				You can <a class="text-link" href="https://www.patreon.com/faunter" target="_blank">join their ranks</a> by showing your support.
 			</p>
 
 			<table>
-				<tr><td class="fine rowHeader"><img src="images/supporters/Turelus.png" alt="Supporter icon">Turelus</td></tr>
+				<tr><td class="fine row-header"><img src="images/supporters/Turelus.png" alt="Supporter icon">Turelus</td></tr>
 			</table>
 
 			<!-- example
 			<table>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="https://www.patreon.com/faunter" target="_blank"><img src="images/misc/logo.png" alt="Supporter icon">Become the first to show your support!</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="https://www.patreon.com/faunter" target="_blank"><img src="images/misc/logo.png" alt="Supporter icon">Become the first to show your support!</a></td></tr>
 			</table>
 			-->
 		</div>
@@ -91,10 +135,10 @@
 		<p>The following unreleased crown crates are present in the game's files.</p>
 		<div class="wrapper">
 			<table>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="steedsbounty"><img src="images/crown crates/icons/14.png" alt="The Steed's Bounty Crate icon">The Steed's Bounty Crate</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="crownclassics2"><img src="images/crown crates/icons/20.png" alt="Crown Classics Volume 2 Crate icon">Crown Classics Volume 2 Crate</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="baandaripedlar"><img src="images/crown crates/icons/21.png" alt="Baandari Pedlar Crate icon">Baandari Pedlar Crate</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="dragonscale"><img src="images/crown crates/icons/24.png" alt="Dragonscale Crate icon">Dragonscale Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="steedsbounty"><img src="images/crown crates/icons/14.png" alt="The Steed's Bounty Crate icon">The Steed's Bounty Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="crownclassics2"><img src="images/crown crates/icons/20.png" alt="Crown Classics Volume 2 Crate icon">Crown Classics Volume 2 Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="baandaripedlar"><img src="images/crown crates/icons/21.png" alt="Baandari Pedlar Crate icon">Baandari Pedlar Crate</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="dragonscale"><img src="images/crown crates/icons/24.png" alt="Dragonscale Crate icon">Dragonscale Crate</a></td></tr>
 			</table>
 		</div>
 
@@ -102,10 +146,10 @@
 		<p>Take a sip and go on a journey through time and space.</p>
 		<div class="wrapper">
 			<table>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="https://docs.google.com/spreadsheets/d/1n1kdrywYmgjx290QwGJj9TT1Y8z4GfEMhvQ8kQnKL5g" target="_blank"><img src="images/misc/potion-en.png" alt="English drop rates spreadsheet icon">Potion of Temporal Perception</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="https://docs.google.com/spreadsheets/d/1QA7M5TLIP4rLiXmkslxMee8u_yTguYWochKAzY8cktg" target="_blank"><img src="images/misc/potion-fr.png" alt="French drop rates spreadsheet icon">Potion de Connaissances</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="https://docs.google.com/spreadsheets/d/1fvFAGn2bZNShQLVhHBEYHi2b3zfVh70bknPAzZs_p6k" target="_blank"><img src="images/misc/potion-de.png" alt="German drop rates spreadsheet icon">Trank der Meisterschaft</a></td></tr>
-				<tr class="fullRowLink"><td class="common rowHeader"><a href="https://docs.google.com/spreadsheets/d/1IG12b2ScdCUJn3_2lHPT8g9pkqnD574JaVksaPImm8c" target="_blank"><img src="images/misc/potion-jp.png" alt="Japanese drop rates spreadsheet icon">&#12363;&#12375;&#12371;&#12373;&#12398;&#31278;</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="https://docs.google.com/spreadsheets/d/1n1kdrywYmgjx290QwGJj9TT1Y8z4GfEMhvQ8kQnKL5g" target="_blank"><img src="images/misc/potion-en.png" alt="English drop rates spreadsheet icon">Potion of Temporal Perception</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="https://docs.google.com/spreadsheets/d/1QA7M5TLIP4rLiXmkslxMee8u_yTguYWochKAzY8cktg" target="_blank"><img src="images/misc/potion-fr.png" alt="French drop rates spreadsheet icon">Potion de Connaissances</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="https://docs.google.com/spreadsheets/d/1fvFAGn2bZNShQLVhHBEYHi2b3zfVh70bknPAzZs_p6k" target="_blank"><img src="images/misc/potion-de.png" alt="German drop rates spreadsheet icon">Trank der Meisterschaft</a></td></tr>
+				<tr class="full-row-link"><td class="common row-header"><a href="https://docs.google.com/spreadsheets/d/1IG12b2ScdCUJn3_2lHPT8g9pkqnD574JaVksaPImm8c" target="_blank"><img src="images/misc/potion-jp.png" alt="Japanese drop rates spreadsheet icon">&#12363;&#12375;&#12371;&#12373;&#12398;&#31278;</a></td></tr>
 			</table>
 		</div>
 
@@ -120,7 +164,7 @@
 				All Rights Reserved.
 			</p>
 			<p>The use of icons and images for the purpose of informing and educating is believed to fall under the fair use clause of copyright law.</p>
-			<p><a class="textLink" href="contact">Contact</a><span class="highlight"> | </span><a class="textLink" href="privacy">Privacy</a></p>
+			<p><a class="text-link" href="contact">Contact</a><span class="highlight"> | </span><a class="text-link" href="privacy">Privacy</a></p>
 		</div>
 	</body>
 </html>

@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130493860-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'UA-130493860-2');
+		</script>
+
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Storm Atronach Crates - Item drop rates</title>
 		<meta name="description" content="Storm Atronach Crate item drop rates for The Elder Scrolls Online.">
-		<link rel="stylesheet" href="styles.css" type="text/css">
 		<link rel="canonical" href="https://www.crowncrates.com/stormatronach">
-		<title>Storm Atronach Crates</title>
+
+		<link rel="stylesheet" href="styles.css" type="text/css">
 	</head>
 	<body>
 		<div id="navbar">
-			<label id="menuButton" for="menuButtonCheckbox"><img src="images/misc/menu.png" alt="Collapse menu button"></label>
+			<label id="menu-button" for="menu-button-checkbox"><img src="images/misc/menu.png" alt="Collapse menu button"></label>
 			<a href="/"><img src="images/misc/logo.png" alt="Website logo">Crown Crates</a
-			><input id="menuButtonCheckbox" type="checkbox"
+			><input id="menu-button-checkbox" type="checkbox"
 			><ul>
-				<li class="legendary"><a href="contribute">Contribute</a></li
+				<li class="legendary"><a href="donate">Donate!</a></li
 				><li><a href="download">Download</a></li
 				><li><a href="about">About</a></li
 				><li><a href="contact">Contact</a></li>
@@ -23,27 +33,27 @@
 
 		<h1 class="common">Storm Atronach Crates</h1>
 
-		<img id="mainImage" src="images/crown crates/crates/1.png" alt="Storm Atronach Crate as it appears in ESO">
+		<img class="responsive-image" src="images/crown crates/crates/1.png" alt="Storm Atronach Crate as it appears in ESO">
 
 		<h2>Crown Crates</h2>
-		<p>Faunter's <a class="textLink" href="download">Crown Crate Tracker</a> has recorded the following.</p>
-		<a href="#_" class="cardPreview" id="cardback"><span class="cardPreviewAlign"></span><img src="images/card backs/cards/1.png" alt="Storm Atronach Crate card"></a>
+		<p>Faunter's <a class="text-link" href="download">Crown Crate Tracker</a> has recorded the following.</p>
+		<a href="#_" class="card-preview" id="cardback"><span class="card-preview-align"></span><img src="images/card backs/cards/1.png" alt="Storm Atronach Crate card"></a>
 		<div class="wrapper">
 			<table>
 				<tr>
-					<td class="common rowHeader"><a href="#cardback"><img src="images/crown crates/icons/1.png" alt="Storm Atronach Crate icon">Storm Atronach Crate</a></td>
+					<td class="common row-header"><a href="#cardback"><img src="images/crown crates/icons/1.png" alt="Storm Atronach Crate icon">Storm Atronach Crate</a></td>
 					<td class="stat">4,270 crates</td>
 				</tr>
 				<tr>
-					<td class="rowHeader"><img src="images/card backs/icons/normal/1.png" alt="Storm Atronach Crate normal card icon">Normal card</td>
+					<td class="row-header"><img src="images/card backs/icons/normal/1.png" alt="Storm Atronach Crate normal card icon">Normal card</td>
 					<td class="stat">17,080 cards</td>
 				</tr>
 				<tr>
-					<td class="rowHeader"><img src="images/card backs/icons/bonus/1.png" alt="Storm Atronach Crate bonus card icon">Bonus card</td>
+					<td class="row-header"><img src="images/card backs/icons/bonus/1.png" alt="Storm Atronach Crate bonus card icon">Bonus card</td>
 					<td class="stat">712 cards </td>
 				</tr>
 				<tr>
-					<td class="rowHeader"><img src="images/misc/logo.png" alt="Storm Atronach Crate bonus drop icon">Bonus card drop rate</td>
+					<td class="row-header"><img src="images/misc/logo.png" alt="Storm Atronach Crate bonus drop icon">Bonus card drop rate</td>
 					<td class="stat">16.67% chance</td>
 				</tr>
 			</table>
@@ -56,76 +66,76 @@
 				Card positions are randomized when you open a crate.
 			</p>
 			<table>
-				<tr id="dropTableHeader">
-					<td id="dropTableIcon"><img src="images/misc/logo.png" alt="Drop table icon"></td>
-					<td class="obtainedDrop">Reward 1</td>
-					<td class="obtainedDrop">Reward 2</td>
-					<td class="obtainedDrop">Bonus card</td>
-					<td class="obtainedDrop">Reward 3</td>
-					<td class="obtainedDrop">Reward 4</td>
+				<tr id="drop-table-header">
+					<td id="drop-table-icon"><img src="images/misc/logo.png" alt="Drop table icon"></td>
+					<td class="obtained-drop">Reward 1</td>
+					<td class="obtained-drop">Reward 2</td>
+					<td class="obtained-drop">Bonus card</td>
+					<td class="obtained-drop">Reward 3</td>
+					<td class="obtained-drop">Reward 4</td>
 				</tr>
 				<tr>
-					<td class="apex rowHeader"><img src="images/crown crates/icons/1.png" alt="Apex Drop icon">Apex Drop</td>
-					<td class="unobtainedDrop" suffix="from Reward 1">Impossible</td>
-					<td class="obtainedDrop" suffix="from Reward 2">Possible</td>
-					<td class="obtainedDrop" suffix="from Bonus card">Possible</td>
-					<td class="unobtainedDrop" suffix="from Reward 3">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 4">Impossible</td>
+					<td class="apex row-header"><img src="images/crown crates/icons/1.png" alt="Apex Drop icon">Apex Drop</td>
+					<td class="unobtained-drop" suffix="from Reward 1">Impossible</td>
+					<td class="obtained-drop" suffix="from Reward 2">Possible</td>
+					<td class="obtained-drop" suffix="from Bonus card">Possible</td>
+					<td class="unobtained-drop" suffix="from Reward 3">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 4">Impossible</td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><img src="images/crown crates/icons/1.png" alt="Legendary Drop icon">Legendary Drop</td>
-					<td class="obtainedDrop" suffix="from Reward 1">Possible</td>
-					<td class="obtainedDrop" suffix="from Reward 2">Possible</td>
-					<td class="obtainedDrop" suffix="from Bonus card">Possible</td>
-					<td class="unobtainedDrop" suffix="from Reward 3">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 4">Impossible</td>
+					<td class="legendary row-header"><img src="images/crown crates/icons/1.png" alt="Legendary Drop icon">Legendary Drop</td>
+					<td class="obtained-drop" suffix="from Reward 1">Possible</td>
+					<td class="obtained-drop" suffix="from Reward 2">Possible</td>
+					<td class="obtained-drop" suffix="from Bonus card">Possible</td>
+					<td class="unobtained-drop" suffix="from Reward 3">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 4">Impossible</td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><img src="images/crown crates/icons/1.png" alt="Epic Drop icon">Epic Drop</td>
-					<td class="obtainedDrop" suffix="from Reward 1">Possible</td>
-					<td class="obtainedDrop" suffix="from Reward 2">Possible</td>
-					<td class="obtainedDrop" suffix="from Bonus card">Possible</td>
-					<td class="unobtainedDrop" suffix="from Reward 3">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 4">Impossible</td>
+					<td class="epic row-header"><img src="images/crown crates/icons/1.png" alt="Epic Drop icon">Epic Drop</td>
+					<td class="obtained-drop" suffix="from Reward 1">Possible</td>
+					<td class="obtained-drop" suffix="from Reward 2">Possible</td>
+					<td class="obtained-drop" suffix="from Bonus card">Possible</td>
+					<td class="unobtained-drop" suffix="from Reward 3">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 4">Impossible</td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><img src="images/crown crates/icons/1.png" alt="Superior Drop icon">Superior Drop</td>
-					<td class="obtainedDrop" suffix="from Reward 1">Possible</td>
-					<td class="obtainedDrop" suffix="from Reward 2">Possible</td>
-					<td class="unobtainedDrop" suffix="from Bonus card">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 3">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Reward 4">Impossible</td>
+					<td class="superior row-header"><img src="images/crown crates/icons/1.png" alt="Superior Drop icon">Superior Drop</td>
+					<td class="obtained-drop" suffix="from Reward 1">Possible</td>
+					<td class="obtained-drop" suffix="from Reward 2">Possible</td>
+					<td class="unobtained-drop" suffix="from Bonus card">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 3">Impossible</td>
+					<td class="unobtained-drop" suffix="from Reward 4">Impossible</td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><img src="images/crown crates/icons/1.png" alt="Fine Drop icon">Fine Drop</td>
-					<td class="obtainedDrop" suffix="from Reward 1">Possible</td>
-					<td class="unobtainedDrop" suffix="from Reward 2">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Bonus card">Impossible</td>
-					<td class="obtainedDrop" suffix="from Reward 3">Possible</td>
-					<td class="obtainedDrop" suffix="from Reward 4">Possible</td>
+					<td class="fine row-header"><img src="images/crown crates/icons/1.png" alt="Fine Drop icon">Fine Drop</td>
+					<td class="obtained-drop" suffix="from Reward 1">Possible</td>
+					<td class="unobtained-drop" suffix="from Reward 2">Impossible</td>
+					<td class="unobtained-drop" suffix="from Bonus card">Impossible</td>
+					<td class="obtained-drop" suffix="from Reward 3">Possible</td>
+					<td class="obtained-drop" suffix="from Reward 4">Possible</td>
 				</tr>
 				<tr>
-					<td class="common rowHeader"><img src="images/crown crates/icons/1.png" alt="Common Drop icon">Common Drop</td>
-					<td class="obtainedDrop" suffix="from Reward 1">Possible</td>
-					<td class="unobtainedDrop" suffix="from Reward 2">Impossible</td>
-					<td class="unobtainedDrop" suffix="from Bonus card">Impossible</td>
-					<td class="obtainedDrop" suffix="from Reward 3">Possible</td>
-					<td class="obtainedDrop" suffix="from Reward 4">Possible</td>
+					<td class="common row-header"><img src="images/crown crates/icons/1.png" alt="Common Drop icon">Common Drop</td>
+					<td class="obtained-drop" suffix="from Reward 1">Possible</td>
+					<td class="unobtained-drop" suffix="from Reward 2">Impossible</td>
+					<td class="unobtained-drop" suffix="from Bonus card">Impossible</td>
+					<td class="obtained-drop" suffix="from Reward 3">Possible</td>
+					<td class="obtained-drop" suffix="from Reward 4">Possible</td>
 				</tr>
 			</table>
 		</div>
 
 		<h2>Apex</h2>
-		<a href="#_" class="cardPreview" id="c405"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c405.png" alt="Storm Atronach Bear card"></a>
-		<a href="#_" class="cardPreview" id="c404"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c404.png" alt="Storm Atronach Camel card"></a>
-		<a href="#_" class="cardPreview" id="c402"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c402.png" alt="Storm Atronach Guar card"></a>
-		<a href="#_" class="cardPreview" id="c400"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c400.png" alt="Storm Atronach Horse card"></a>
-		<a href="#_" class="cardPreview" id="c403"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c403.png" alt="Storm Atronach Senche card"></a>
-		<a href="#_" class="cardPreview" id="c608"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c608.png" alt="Storm Atronach Wolf card"></a>
+		<a href="#_" class="card-preview" id="c405"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c405.png" alt="Storm Atronach Bear card"></a>
+		<a href="#_" class="card-preview" id="c404"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c404.png" alt="Storm Atronach Camel card"></a>
+		<a href="#_" class="card-preview" id="c402"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c402.png" alt="Storm Atronach Guar card"></a>
+		<a href="#_" class="card-preview" id="c400"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c400.png" alt="Storm Atronach Horse card"></a>
+		<a href="#_" class="card-preview" id="c403"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c403.png" alt="Storm Atronach Senche card"></a>
+		<a href="#_" class="card-preview" id="c608"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c608.png" alt="Storm Atronach Wolf card"></a>
 		<div class="wrapper">
 			<table>
 				<tr>
-					<td class="apex rowHeader"><img src="images/misc/logo.png" alt="Apex item icon">Apex Reward</td>
+					<td class="apex row-header"><img src="images/misc/logo.png" alt="Apex item icon">Apex Reward</td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.85%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 1</div><div class="chance">(0.00%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.07%)</div></td>
@@ -134,7 +144,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="apex rowHeader"><a href="#c405"><img src="images/crate rewards/icons/c405.png" alt="Storm Atronach Bear icon">Storm Atronach Bear</a></td>
+					<td class="apex row-header"><a href="#c405"><img src="images/crate rewards/icons/c405.png" alt="Storm Atronach Bear icon">Storm Atronach Bear</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.21%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 1</div><div class="chance">(0.00%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -143,7 +153,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="apex rowHeader"><a href="#c404"><img src="images/crate rewards/icons/c404.png" alt="Storm Atronach Camel icon">Storm Atronach Camel</a></td>
+					<td class="apex row-header"><a href="#c404"><img src="images/crate rewards/icons/c404.png" alt="Storm Atronach Camel icon">Storm Atronach Camel</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.35%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 1</div><div class="chance">(0.00%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -152,7 +162,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="apex rowHeader"><a href="#c402"><img src="images/crate rewards/icons/c402.png" alt="Storm Atronach Guar icon">Storm Atronach Guar</a></td>
+					<td class="apex row-header"><a href="#c402"><img src="images/crate rewards/icons/c402.png" alt="Storm Atronach Guar icon">Storm Atronach Guar</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.28%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 1</div><div class="chance">(0.00%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.02%)</div></td>
@@ -161,7 +171,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="apex rowHeader"><a href="#c400"><img src="images/crate rewards/icons/c400.png" alt="Storm Atronach Horse icon">Storm Atronach Horse</a></td>
+					<td class="apex row-header"><a href="#c400"><img src="images/crate rewards/icons/c400.png" alt="Storm Atronach Horse icon">Storm Atronach Horse</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.37%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 1</div><div class="chance">(0.00%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -170,7 +180,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="apex rowHeader"><a href="#c403"><img src="images/crate rewards/icons/c403.png" alt="Storm Atronach Senche icon">Storm Atronach Senche</a></td>
+					<td class="apex row-header"><a href="#c403"><img src="images/crate rewards/icons/c403.png" alt="Storm Atronach Senche icon">Storm Atronach Senche</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.30%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 1</div><div class="chance">(0.00%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.05%)</div></td>
@@ -179,7 +189,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="apex rowHeader"><a href="#c608"><img src="images/crate rewards/icons/c608.png" alt="Storm Atronach Wolf icon">Storm Atronach Wolf</a></td>
+					<td class="apex row-header"><a href="#c608"><img src="images/crate rewards/icons/c608.png" alt="Storm Atronach Wolf icon">Storm Atronach Wolf</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.33%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 1</div><div class="chance">(0.00%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -191,26 +201,26 @@
 		</div>
 
 		<h2>Legendary</h2>
-		<a href="#_" class="cardPreview" id="c305"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c305.png" alt="Black Mane Lion card"></a>
-		<a href="#_" class="cardPreview" id="c221"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c221.png" alt="Black Mask Bear-Dog card"></a>
-		<a href="#_" class="cardPreview" id="c23"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c23.png" alt="Clouded Senche-Leopard card"></a>
-		<a href="#_" class="cardPreview" id="c406"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c406.png" alt="Clouded Senche-Leopard Cub card"></a>
-		<a href="#_" class="cardPreview" id="c410"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c410.png" alt="Dwarf-Style Mage's Hat card"></a>
-		<a href="#_" class="cardPreview" id="c93"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c93.png" alt="Frost Mare card"></a>
-		<a href="#_" class="cardPreview" id="i94441"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i94441.png" alt="Grand Gold Coast Experience Scroll card"></a>
-		<a href="#_" class="cardPreview" id="c412"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c412.png" alt="Imperial Mananaut Cap & Goggles card"></a>
-		<a href="#_" class="cardPreview" id="c162"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c162.png" alt="Mind-Shriven card"></a>
-		<a href="#_" class="cardPreview" id="c113"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c113.png" alt="Mind-Shriven Horse card"></a>
-		<a href="#_" class="cardPreview" id="c270"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c270.png" alt="Orchid Nixad card"></a>
-		<a href="#_" class="cardPreview" id="c326"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c326.png" alt="Red Pit Wolf card"></a>
-		<a href="#_" class="cardPreview" id="c114"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c114.png" alt="Red Pit Wolf Pup card"></a>
-		<a href="#_" class="cardPreview" id="c253"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c253.png" alt="Rosy Netch Calf card"></a>
-		<a href="#_" class="cardPreview" id="c596"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c596.png" alt="Storm Atronach Transform card"></a>
-		<a href="#_" class="cardPreview" id="c243"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c243.png" alt="Tangerine Dragon Frog card"></a>
+		<a href="#_" class="card-preview" id="c305"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c305.png" alt="Black Mane Lion card"></a>
+		<a href="#_" class="card-preview" id="c221"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c221.png" alt="Black Mask Bear-Dog card"></a>
+		<a href="#_" class="card-preview" id="c23"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c23.png" alt="Clouded Senche-Leopard card"></a>
+		<a href="#_" class="card-preview" id="c406"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c406.png" alt="Clouded Senche-Leopard Cub card"></a>
+		<a href="#_" class="card-preview" id="c410"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c410.png" alt="Dwarf-Style Mage's Hat card"></a>
+		<a href="#_" class="card-preview" id="c93"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c93.png" alt="Frost Mare card"></a>
+		<a href="#_" class="card-preview" id="i94441"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i94441.png" alt="Grand Gold Coast Experience Scroll card"></a>
+		<a href="#_" class="card-preview" id="c412"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c412.png" alt="Imperial Mananaut Cap & Goggles card"></a>
+		<a href="#_" class="card-preview" id="c162"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c162.png" alt="Mind-Shriven card"></a>
+		<a href="#_" class="card-preview" id="c113"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c113.png" alt="Mind-Shriven Horse card"></a>
+		<a href="#_" class="card-preview" id="c270"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c270.png" alt="Orchid Nixad card"></a>
+		<a href="#_" class="card-preview" id="c326"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c326.png" alt="Red Pit Wolf card"></a>
+		<a href="#_" class="card-preview" id="c114"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c114.png" alt="Red Pit Wolf Pup card"></a>
+		<a href="#_" class="card-preview" id="c253"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c253.png" alt="Rosy Netch Calf card"></a>
+		<a href="#_" class="card-preview" id="c596"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c596.png" alt="Storm Atronach Transform card"></a>
+		<a href="#_" class="card-preview" id="c243"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c243.png" alt="Tangerine Dragon Frog card"></a>
 		<div class="wrapper">
 			<table>
 				<tr>
-					<td class="legendary rowHeader"><img src="images/misc/logo.png" alt="Legendary item icon">Legendary Reward</td>
+					<td class="legendary row-header"><img src="images/misc/logo.png" alt="Legendary item icon">Legendary Reward</td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(12.79%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(1.59%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(6.65%)</div></td>
@@ -219,7 +229,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c305"><img src="images/crate rewards/icons/c305.png" alt="Black Mane Lion icon">Black Mane Lion</a></td>
+					<td class="legendary row-header"><a href="#c305"><img src="images/crate rewards/icons/c305.png" alt="Black Mane Lion icon">Black Mane Lion</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.84%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.07%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.42%)</div></td>
@@ -228,7 +238,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c221"><img src="images/crate rewards/icons/c221.png" alt="Black Mask Bear-Dog icon">Black Mask Bear-Dog</a></td>
+					<td class="legendary row-header"><a href="#c221"><img src="images/crate rewards/icons/c221.png" alt="Black Mask Bear-Dog icon">Black Mask Bear-Dog</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.10%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.23%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.44%)</div></td>
@@ -237,7 +247,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c23"><img src="images/crate rewards/icons/c23.png" alt="Clouded Senche-Leopard icon">Clouded Senche-Leopard</a></td>
+					<td class="legendary row-header"><a href="#c23"><img src="images/crate rewards/icons/c23.png" alt="Clouded Senche-Leopard icon">Clouded Senche-Leopard</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.75%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.12%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.40%)</div></td>
@@ -246,7 +256,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c406"><img src="images/crate rewards/icons/c406.png" alt="Clouded Senche-Leopard Cub icon">Clouded Senche-Leopard Cub</a></td>
+					<td class="legendary row-header"><a href="#c406"><img src="images/crate rewards/icons/c406.png" alt="Clouded Senche-Leopard Cub icon">Clouded Senche-Leopard Cub</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.82%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.09%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.42%)</div></td>
@@ -255,7 +265,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c410"><img src="images/crate rewards/icons/c410.png" alt="Dwarf-Style Mage's Hat icon">Dwarf-Style Mage's Hat</a></td>
+					<td class="legendary row-header"><a href="#c410"><img src="images/crate rewards/icons/c410.png" alt="Dwarf-Style Mage's Hat icon">Dwarf-Style Mage's Hat</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.75%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.12%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.44%)</div></td>
@@ -264,7 +274,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c93"><img src="images/crate rewards/icons/c93.png" alt="Frost Mare icon">Frost Mare</a></td>
+					<td class="legendary row-header"><a href="#c93"><img src="images/crate rewards/icons/c93.png" alt="Frost Mare icon">Frost Mare</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.52%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.12%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.19%)</div></td>
@@ -273,7 +283,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#i94441"><img src="images/crate rewards/icons/i94441.png" alt="Grand Gold Coast Experience Scroll icon">Grand Gold Coast Experience Scroll</a></td>
+					<td class="legendary row-header"><a href="#i94441"><img src="images/crate rewards/icons/i94441.png" alt="Grand Gold Coast Experience Scroll icon">Grand Gold Coast Experience Scroll</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.73%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.09%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.23%)</div></td>
@@ -282,7 +292,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c412"><img src="images/crate rewards/icons/c412.png" alt="Imperial Mananaut Cap & Goggles icon">Imperial Mananaut Cap & Goggles</a></td>
+					<td class="legendary row-header"><a href="#c412"><img src="images/crate rewards/icons/c412.png" alt="Imperial Mananaut Cap & Goggles icon">Imperial Mananaut Cap & Goggles</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.84%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.02%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.42%)</div></td>
@@ -291,7 +301,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c162"><img src="images/crate rewards/icons/c162.png" alt="Mind-Shriven icon">Mind-Shriven</a></td>
+					<td class="legendary row-header"><a href="#c162"><img src="images/crate rewards/icons/c162.png" alt="Mind-Shriven icon">Mind-Shriven</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.84%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.09%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.47%)</div></td>
@@ -300,7 +310,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c113"><img src="images/crate rewards/icons/c113.png" alt="Mind-Shriven Horse icon">Mind-Shriven Horse</a></td>
+					<td class="legendary row-header"><a href="#c113"><img src="images/crate rewards/icons/c113.png" alt="Mind-Shriven Horse icon">Mind-Shriven Horse</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.77%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.05%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.42%)</div></td>
@@ -309,7 +319,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c270"><img src="images/crate rewards/icons/c270.png" alt="Orchid Nixad icon">Orchid Nixad</a></td>
+					<td class="legendary row-header"><a href="#c270"><img src="images/crate rewards/icons/c270.png" alt="Orchid Nixad icon">Orchid Nixad</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.80%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.12%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.35%)</div></td>
@@ -318,7 +328,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c326"><img src="images/crate rewards/icons/c326.png" alt="Red Pit Wolf icon">Red Pit Wolf</a></td>
+					<td class="legendary row-header"><a href="#c326"><img src="images/crate rewards/icons/c326.png" alt="Red Pit Wolf icon">Red Pit Wolf</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.84%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.07%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.44%)</div></td>
@@ -327,7 +337,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c114"><img src="images/crate rewards/icons/c114.png" alt="Red Pit Wolf Pup icon">Red Pit Wolf Pup</a></td>
+					<td class="legendary row-header"><a href="#c114"><img src="images/crate rewards/icons/c114.png" alt="Red Pit Wolf Pup icon">Red Pit Wolf Pup</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.70%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.12%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.40%)</div></td>
@@ -336,7 +346,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c253"><img src="images/crate rewards/icons/c253.png" alt="Rosy Netch Calf icon">Rosy Netch Calf</a></td>
+					<td class="legendary row-header"><a href="#c253"><img src="images/crate rewards/icons/c253.png" alt="Rosy Netch Calf icon">Rosy Netch Calf</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.10%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.12%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.54%)</div></td>
@@ -345,7 +355,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c596"><img src="images/crate rewards/icons/c596.png" alt="Storm Atronach Transform icon">Storm Atronach Transform</a></td>
+					<td class="legendary row-header"><a href="#c596"><img src="images/crate rewards/icons/c596.png" alt="Storm Atronach Transform icon">Storm Atronach Transform</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.87%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.09%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.52%)</div></td>
@@ -354,7 +364,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="legendary rowHeader"><a href="#c243"><img src="images/crate rewards/icons/c243.png" alt="Tangerine Dragon Frog icon">Tangerine Dragon Frog</a></td>
+					<td class="legendary row-header"><a href="#c243"><img src="images/crate rewards/icons/c243.png" alt="Tangerine Dragon Frog icon">Tangerine Dragon Frog</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.91%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.07%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.54%)</div></td>
@@ -366,26 +376,26 @@
 		</div>
 
 		<h2>Epic</h2>
-		<a href="#_" class="cardPreview" id="c205"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c205.png" alt="'Brilliance' Brocade Robes card"></a>
-		<a href="#_" class="cardPreview" id="c444"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c444.png" alt="Aurbical Symbols card"></a>
-		<a href="#_" class="cardPreview" id="c587"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c587.png" alt="Belly Dancer Veil card"></a>
-		<a href="#_" class="cardPreview" id="c159"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c159.png" alt="Chub Loon card"></a>
-		<a href="#_" class="cardPreview" id="c450"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c450.png" alt="Enveloping Scales card"></a>
-		<a href="#_" class="cardPreview" id="c589"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c589.png" alt="Feathered Headdress card"></a>
-		<a href="#_" class="cardPreview" id="c19"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c19.png" alt="Golden Eye Guar card"></a>
-		<a href="#_" class="cardPreview" id="c407"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c407.png" alt="Hedge Wizard's Claw Cap card"></a>
-		<a href="#_" class="cardPreview" id="c196"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c196.png" alt="High-Collared Coin Ball Gown card"></a>
-		<a href="#_" class="cardPreview" id="i94440"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i94440.png" alt="Major Gold Coast Experience Scroll card"></a>
-		<a href="#_" class="cardPreview" id="c1"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c1.png" alt="Palomino Horse card"></a>
-		<a href="#_" class="cardPreview" id="c112"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c112.png" alt="Purple Daggerback card"></a>
-		<a href="#_" class="cardPreview" id="c461"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c461.png" alt="Shadow Stripe Headwrap card"></a>
-		<a href="#_" class="cardPreview" id="c595"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c595.png" alt="Storm Orb Juggle card"></a>
-		<a href="#_" class="cardPreview" id="c445"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c445.png" alt="The Aurbic Eye card"></a>
-		<a href="#_" class="cardPreview" id="c382"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c382.png" alt="Upright Antler Skullcap card"></a>
+		<a href="#_" class="card-preview" id="c205"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c205.png" alt="'Brilliance' Brocade Robes card"></a>
+		<a href="#_" class="card-preview" id="c444"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c444.png" alt="Aurbical Symbols card"></a>
+		<a href="#_" class="card-preview" id="c587"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c587.png" alt="Belly Dancer Veil card"></a>
+		<a href="#_" class="card-preview" id="c159"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c159.png" alt="Chub Loon card"></a>
+		<a href="#_" class="card-preview" id="c450"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c450.png" alt="Enveloping Scales card"></a>
+		<a href="#_" class="card-preview" id="c589"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c589.png" alt="Feathered Headdress card"></a>
+		<a href="#_" class="card-preview" id="c19"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c19.png" alt="Golden Eye Guar card"></a>
+		<a href="#_" class="card-preview" id="c407"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c407.png" alt="Hedge Wizard's Claw Cap card"></a>
+		<a href="#_" class="card-preview" id="c196"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c196.png" alt="High-Collared Coin Ball Gown card"></a>
+		<a href="#_" class="card-preview" id="i94440"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i94440.png" alt="Major Gold Coast Experience Scroll card"></a>
+		<a href="#_" class="card-preview" id="c1"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c1.png" alt="Palomino Horse card"></a>
+		<a href="#_" class="card-preview" id="c112"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c112.png" alt="Purple Daggerback card"></a>
+		<a href="#_" class="card-preview" id="c461"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c461.png" alt="Shadow Stripe Headwrap card"></a>
+		<a href="#_" class="card-preview" id="c595"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c595.png" alt="Storm Orb Juggle card"></a>
+		<a href="#_" class="card-preview" id="c445"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c445.png" alt="The Aurbic Eye card"></a>
+		<a href="#_" class="card-preview" id="c382"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c382.png" alt="Upright Antler Skullcap card"></a>
 		<div class="wrapper">
 			<table>
 				<tr>
-					<td class="epic rowHeader"><img src="images/misc/logo.png" alt="Epic item icon">Epic Reward</td>
+					<td class="epic row-header"><img src="images/misc/logo.png" alt="Epic item icon">Epic Reward</td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(19.77%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(3.04%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(8.27%)</div></td>
@@ -394,7 +404,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c205"><img src="images/crate rewards/icons/c205.png" alt="'Brilliance' Brocade Robes icon">"Brilliance" Brocade Robes</a></td>
+					<td class="epic row-header"><a href="#c205"><img src="images/crate rewards/icons/c205.png" alt="'Brilliance' Brocade Robes icon">"Brilliance" Brocade Robes</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.45%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.21%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.40%)</div></td>
@@ -403,7 +413,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c444"><img src="images/crate rewards/icons/c444.png" alt="Aurbical Symbols icon">Aurbical Symbols</a></td>
+					<td class="epic row-header"><a href="#c444"><img src="images/crate rewards/icons/c444.png" alt="Aurbical Symbols icon">Aurbical Symbols</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.31%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.16%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.66%)</div></td>
@@ -412,7 +422,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c587"><img src="images/crate rewards/icons/c587.png" alt="Belly Dancer Veil icon">Belly Dancer Veil</a></td>
+					<td class="epic row-header"><a href="#c587"><img src="images/crate rewards/icons/c587.png" alt="Belly Dancer Veil icon">Belly Dancer Veil</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.26%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.12%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.52%)</div></td>
@@ -421,7 +431,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c159"><img src="images/crate rewards/icons/c159.png" alt="Chub Loon icon">Chub Loon</a></td>
+					<td class="epic row-header"><a href="#c159"><img src="images/crate rewards/icons/c159.png" alt="Chub Loon icon">Chub Loon</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.33%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.19%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.35%)</div></td>
@@ -430,7 +440,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c450"><img src="images/crate rewards/icons/c450.png" alt="Enveloping Scales icon">Enveloping Scales</a></td>
+					<td class="epic row-header"><a href="#c450"><img src="images/crate rewards/icons/c450.png" alt="Enveloping Scales icon">Enveloping Scales</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.17%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.12%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.63%)</div></td>
@@ -439,7 +449,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c589"><img src="images/crate rewards/icons/c589.png" alt="Feathered Headdress icon">Feathered Headdress</a></td>
+					<td class="epic row-header"><a href="#c589"><img src="images/crate rewards/icons/c589.png" alt="Feathered Headdress icon">Feathered Headdress</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.31%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.26%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.42%)</div></td>
@@ -448,7 +458,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c19"><img src="images/crate rewards/icons/c19.png" alt="Golden Eye Guar icon">Golden Eye Guar</a></td>
+					<td class="epic row-header"><a href="#c19"><img src="images/crate rewards/icons/c19.png" alt="Golden Eye Guar icon">Golden Eye Guar</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.10%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.19%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.61%)</div></td>
@@ -457,7 +467,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c407"><img src="images/crate rewards/icons/c407.png" alt="Hedge Wizard's Claw Cap icon">Hedge Wizard's Claw Cap</a></td>
+					<td class="epic row-header"><a href="#c407"><img src="images/crate rewards/icons/c407.png" alt="Hedge Wizard's Claw Cap icon">Hedge Wizard's Claw Cap</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.69%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.28%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.56%)</div></td>
@@ -466,7 +476,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c196"><img src="images/crate rewards/icons/c196.png" alt="High-Collared Coin Ball Gown icon">High-Collared Coin Ball Gown</a></td>
+					<td class="epic row-header"><a href="#c196"><img src="images/crate rewards/icons/c196.png" alt="High-Collared Coin Ball Gown icon">High-Collared Coin Ball Gown</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.43%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.12%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.49%)</div></td>
@@ -475,7 +485,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#i94440"><img src="images/crate rewards/icons/i94440.png" alt="Major Gold Coast Experience Scroll icon">Major Gold Coast Experience Scroll</a></td>
+					<td class="epic row-header"><a href="#i94440"><img src="images/crate rewards/icons/i94440.png" alt="Major Gold Coast Experience Scroll icon">Major Gold Coast Experience Scroll</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.29%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.21%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.49%)</div></td>
@@ -484,7 +494,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c1"><img src="images/crate rewards/icons/c1.png" alt="Palomino Horse icon">Palomino Horse</a></td>
+					<td class="epic row-header"><a href="#c1"><img src="images/crate rewards/icons/c1.png" alt="Palomino Horse icon">Palomino Horse</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.52%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.07%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.68%)</div></td>
@@ -493,7 +503,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c112"><img src="images/crate rewards/icons/c112.png" alt="Purple Daggerback icon">Purple Daggerback</a></td>
+					<td class="epic row-header"><a href="#c112"><img src="images/crate rewards/icons/c112.png" alt="Purple Daggerback icon">Purple Daggerback</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.64%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.23%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.63%)</div></td>
@@ -502,7 +512,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c461"><img src="images/crate rewards/icons/c461.png" alt="Shadow Stripe Headwrap icon">Shadow Stripe Headwrap</a></td>
+					<td class="epic row-header"><a href="#c461"><img src="images/crate rewards/icons/c461.png" alt="Shadow Stripe Headwrap icon">Shadow Stripe Headwrap</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.17%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.26%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.44%)</div></td>
@@ -511,7 +521,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c595"><img src="images/crate rewards/icons/c595.png" alt="Storm Orb Juggle icon">Storm Orb Juggle</a></td>
+					<td class="epic row-header"><a href="#c595"><img src="images/crate rewards/icons/c595.png" alt="Storm Orb Juggle icon">Storm Orb Juggle</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(0.98%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.16%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.40%)</div></td>
@@ -520,7 +530,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c445"><img src="images/crate rewards/icons/c445.png" alt="The Aurbic Eye icon">The Aurbic Eye</a></td>
+					<td class="epic row-header"><a href="#c445"><img src="images/crate rewards/icons/c445.png" alt="The Aurbic Eye icon">The Aurbic Eye</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.26%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.28%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.42%)</div></td>
@@ -529,7 +539,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="epic rowHeader"><a href="#c382"><img src="images/crate rewards/icons/c382.png" alt="Upright Antler Skullcap icon">Upright Antler Skullcap</a></td>
+					<td class="epic row-header"><a href="#c382"><img src="images/crate rewards/icons/c382.png" alt="Upright Antler Skullcap icon">Upright Antler Skullcap</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(1.29%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.19%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(0.56%)</div></td>
@@ -541,29 +551,29 @@
 		</div>
 
 		<h2>Superior</h2>
-		<a href="#_" class="cardPreview" id="c409"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c409.png" alt="'Clever Man' Wizard Hat card"></a>
-		<a href="#_" class="cardPreview" id="c471"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c471.png" alt="Azure Brow-to-Temple Circlet card"></a>
-		<a href="#_" class="cardPreview" id="c84"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c84.png" alt="Battlemage Palatine Armor card"></a>
-		<a href="#_" class="cardPreview" id="c94"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c94.png" alt="Battlemage Scout Captain Uniform card"></a>
-		<a href="#_" class="cardPreview" id="c101"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c101.png" alt="Battlemage Tribune Armor card"></a>
-		<a href="#_" class="cardPreview" id="c31"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c31.png" alt="Daedric Scamp card"></a>
-		<a href="#_" class="cardPreview" id="c76"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c76.png" alt="Evening Dress card"></a>
-		<a href="#_" class="cardPreview" id="c383"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c383.png" alt="Feathered Bycoket Cap card"></a>
-		<a href="#_" class="cardPreview" id="c411"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c411.png" alt="Fibonaccus Spiral Hat card"></a>
-		<a href="#_" class="cardPreview" id="c30"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c30.png" alt="Helstrom Ancestor Lizard card"></a>
-		<a href="#_" class="cardPreview" id="c588"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c588.png" alt="Jawbone Blades card"></a>
-		<a href="#_" class="cardPreview" id="c432"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c432.png" alt="Roostertail Frills card"></a>
-		<a href="#_" class="cardPreview" id="c460"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c460.png" alt="Shadow Striping card"></a>
-		<a href="#_" class="cardPreview" id="c86"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c86.png" alt="Shornhelm Shepherd card"></a>
-		<a href="#_" class="cardPreview" id="c110"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c110.png" alt="Soul-Shriven Armor Outfit card"></a>
-		<a href="#_" class="cardPreview" id="c109"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c109.png" alt="Soul-Shriven Leather Outfit card"></a>
-		<a href="#_" class="cardPreview" id="c108"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c108.png" alt="Soul-Shriven Ragged Clothing card"></a>
-		<a href="#_" class="cardPreview" id="c594"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c594.png" alt="Storm Atronach Aura card"></a>
-		<a href="#_" class="cardPreview" id="c464"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/c464.png" alt="Wrestler's Buzz Cut card"></a>
+		<a href="#_" class="card-preview" id="c409"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c409.png" alt="'Clever Man' Wizard Hat card"></a>
+		<a href="#_" class="card-preview" id="c471"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c471.png" alt="Azure Brow-to-Temple Circlet card"></a>
+		<a href="#_" class="card-preview" id="c84"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c84.png" alt="Battlemage Palatine Armor card"></a>
+		<a href="#_" class="card-preview" id="c94"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c94.png" alt="Battlemage Scout Captain Uniform card"></a>
+		<a href="#_" class="card-preview" id="c101"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c101.png" alt="Battlemage Tribune Armor card"></a>
+		<a href="#_" class="card-preview" id="c31"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c31.png" alt="Daedric Scamp card"></a>
+		<a href="#_" class="card-preview" id="c76"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c76.png" alt="Evening Dress card"></a>
+		<a href="#_" class="card-preview" id="c383"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c383.png" alt="Feathered Bycoket Cap card"></a>
+		<a href="#_" class="card-preview" id="c411"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c411.png" alt="Fibonaccus Spiral Hat card"></a>
+		<a href="#_" class="card-preview" id="c30"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c30.png" alt="Helstrom Ancestor Lizard card"></a>
+		<a href="#_" class="card-preview" id="c588"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c588.png" alt="Jawbone Blades card"></a>
+		<a href="#_" class="card-preview" id="c432"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c432.png" alt="Roostertail Frills card"></a>
+		<a href="#_" class="card-preview" id="c460"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c460.png" alt="Shadow Striping card"></a>
+		<a href="#_" class="card-preview" id="c86"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c86.png" alt="Shornhelm Shepherd card"></a>
+		<a href="#_" class="card-preview" id="c110"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c110.png" alt="Soul-Shriven Armor Outfit card"></a>
+		<a href="#_" class="card-preview" id="c109"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c109.png" alt="Soul-Shriven Leather Outfit card"></a>
+		<a href="#_" class="card-preview" id="c108"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c108.png" alt="Soul-Shriven Ragged Clothing card"></a>
+		<a href="#_" class="card-preview" id="c594"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c594.png" alt="Storm Atronach Aura card"></a>
+		<a href="#_" class="card-preview" id="c464"><span class="card-preview-align"></span><img src="images/crate rewards/cards/c464.png" alt="Wrestler's Buzz Cut card"></a>
 		<div class="wrapper">
 			<table>
 				<tr>
-					<td class="superior rowHeader"><img src="images/misc/logo.png" alt="Superior item icon">Superior Reward</td>
+					<td class="superior row-header"><img src="images/misc/logo.png" alt="Superior item icon">Superior Reward</td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(85.81%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(5.39%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(85.01%)</div></td>
@@ -572,7 +582,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c409"><img src="images/crate rewards/icons/c409.png" alt="'Clever Man' Wizard Hat icon">"Clever Man" Wizard Hat</a></td>
+					<td class="superior row-header"><a href="#c409"><img src="images/crate rewards/icons/c409.png" alt="'Clever Man' Wizard Hat icon">"Clever Man" Wizard Hat</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.75%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.35%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.43%)</div></td>
@@ -581,7 +591,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c471"><img src="images/crate rewards/icons/c471.png" alt="Azure Brow-to-Temple Circlet icon">Azure Brow-to-Temple Circlet</a></td>
+					<td class="superior row-header"><a href="#c471"><img src="images/crate rewards/icons/c471.png" alt="Azure Brow-to-Temple Circlet icon">Azure Brow-to-Temple Circlet</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.99%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.37%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.64%)</div></td>
@@ -590,7 +600,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c84"><img src="images/crate rewards/icons/c84.png" alt="Battlemage Palatine Armor icon">Battlemage Palatine Armor</a></td>
+					<td class="superior row-header"><a href="#c84"><img src="images/crate rewards/icons/c84.png" alt="Battlemage Palatine Armor icon">Battlemage Palatine Armor</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.96%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.23%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.75%)</div></td>
@@ -599,7 +609,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c94"><img src="images/crate rewards/icons/c94.png" alt="Battlemage Scout Captain Uniform icon">Battlemage Scout Captain Uniform</a></td>
+					<td class="superior row-header"><a href="#c94"><img src="images/crate rewards/icons/c94.png" alt="Battlemage Scout Captain Uniform icon">Battlemage Scout Captain Uniform</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.94%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.28%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.66%)</div></td>
@@ -608,7 +618,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c101"><img src="images/crate rewards/icons/c101.png" alt="Battlemage Tribune Armor icon">Battlemage Tribune Armor</a></td>
+					<td class="superior row-header"><a href="#c101"><img src="images/crate rewards/icons/c101.png" alt="Battlemage Tribune Armor icon">Battlemage Tribune Armor</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.89%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.21%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.68%)</div></td>
@@ -617,7 +627,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c31"><img src="images/crate rewards/icons/c31.png" alt="Daedric Scamp icon">Daedric Scamp</a></td>
+					<td class="superior row-header"><a href="#c31"><img src="images/crate rewards/icons/c31.png" alt="Daedric Scamp icon">Daedric Scamp</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.17%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.21%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(3.96%)</div></td>
@@ -626,7 +636,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c76"><img src="images/crate rewards/icons/c76.png" alt="Evening Dress icon">Evening Dress</a></td>
+					<td class="superior row-header"><a href="#c76"><img src="images/crate rewards/icons/c76.png" alt="Evening Dress icon">Evening Dress</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(5.29%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.33%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.99%)</div></td>
@@ -635,7 +645,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c383"><img src="images/crate rewards/icons/c383.png" alt="Feathered Bycoket Cap icon">Feathered Bycoket Cap</a></td>
+					<td class="superior row-header"><a href="#c383"><img src="images/crate rewards/icons/c383.png" alt="Feathered Bycoket Cap icon">Feathered Bycoket Cap</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.38%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.26%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.15%)</div></td>
@@ -644,7 +654,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c411"><img src="images/crate rewards/icons/c411.png" alt="Fibonaccus Spiral Hat icon">Fibonaccus Spiral Hat</a></td>
+					<td class="superior row-header"><a href="#c411"><img src="images/crate rewards/icons/c411.png" alt="Fibonaccus Spiral Hat icon">Fibonaccus Spiral Hat</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(5.18%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.30%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.89%)</div></td>
@@ -653,7 +663,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c30"><img src="images/crate rewards/icons/c30.png" alt="Helstrom Ancestor Lizard icon">Helstrom Ancestor Lizard</a></td>
+					<td class="superior row-header"><a href="#c30"><img src="images/crate rewards/icons/c30.png" alt="Helstrom Ancestor Lizard icon">Helstrom Ancestor Lizard</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.50%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.30%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.22%)</div></td>
@@ -662,7 +672,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c588"><img src="images/crate rewards/icons/c588.png" alt="Jawbone Blades icon">Jawbone Blades</a></td>
+					<td class="superior row-header"><a href="#c588"><img src="images/crate rewards/icons/c588.png" alt="Jawbone Blades icon">Jawbone Blades</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(5.46%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.33%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(5.13%)</div></td>
@@ -671,7 +681,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c432"><img src="images/crate rewards/icons/c432.png" alt="Roostertail Frills icon">Roostertail Frills</a></td>
+					<td class="superior row-header"><a href="#c432"><img src="images/crate rewards/icons/c432.png" alt="Roostertail Frills icon">Roostertail Frills</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.61%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.33%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.31%)</div></td>
@@ -680,7 +690,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c460"><img src="images/crate rewards/icons/c460.png" alt="Shadow Striping icon">Shadow Striping</a></td>
+					<td class="superior row-header"><a href="#c460"><img src="images/crate rewards/icons/c460.png" alt="Shadow Striping icon">Shadow Striping</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.68%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.21%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.47%)</div></td>
@@ -689,7 +699,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c86"><img src="images/crate rewards/icons/c86.png" alt="Shornhelm Shepherd icon">Shornhelm Shepherd</a></td>
+					<td class="superior row-header"><a href="#c86"><img src="images/crate rewards/icons/c86.png" alt="Shornhelm Shepherd icon">Shornhelm Shepherd</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.89%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.16%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.73%)</div></td>
@@ -698,7 +708,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c110"><img src="images/crate rewards/icons/c110.png" alt="Soul-Shriven Armor Outfit icon">Soul-Shriven Armor Outfit</a></td>
+					<td class="superior row-header"><a href="#c110"><img src="images/crate rewards/icons/c110.png" alt="Soul-Shriven Armor Outfit icon">Soul-Shriven Armor Outfit</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.71%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.19%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.52%)</div></td>
@@ -707,7 +717,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c109"><img src="images/crate rewards/icons/c109.png" alt="Soul-Shriven Leather Outfit icon">Soul-Shriven Leather Outfit</a></td>
+					<td class="superior row-header"><a href="#c109"><img src="images/crate rewards/icons/c109.png" alt="Soul-Shriven Leather Outfit icon">Soul-Shriven Leather Outfit</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.36%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.40%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(3.96%)</div></td>
@@ -716,7 +726,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c108"><img src="images/crate rewards/icons/c108.png" alt="Soul-Shriven Ragged Clothing icon">Soul-Shriven Ragged Clothing</a></td>
+					<td class="superior row-header"><a href="#c108"><img src="images/crate rewards/icons/c108.png" alt="Soul-Shriven Ragged Clothing icon">Soul-Shriven Ragged Clothing</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.99%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.26%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(4.73%)</div></td>
@@ -725,7 +735,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c594"><img src="images/crate rewards/icons/c594.png" alt="Storm Atronach Aura icon">Storm Atronach Aura</a></td>
+					<td class="superior row-header"><a href="#c594"><img src="images/crate rewards/icons/c594.png" alt="Storm Atronach Aura icon">Storm Atronach Aura</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.26%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.35%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(3.91%)</div></td>
@@ -734,7 +744,7 @@
 					<td class="unobtained"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="superior rowHeader"><a href="#c464"><img src="images/crate rewards/icons/c464.png" alt="Wrestler's Buzz Cut icon">Wrestler's Buzz Cut</a></td>
+					<td class="superior row-header"><a href="#c464"><img src="images/crate rewards/icons/c464.png" alt="Wrestler's Buzz Cut icon">Wrestler's Buzz Cut</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(4.17%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(0.30%)</div></td>
 					<td class="obtained"><div class="slot">Reward 2</div><div class="chance">(3.89%)</div></td>
@@ -746,22 +756,22 @@
 		</div>
 
 		<h2>Fine</h2>
-		<a href="#_" class="cardPreview" id="i124675"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i124675.png" alt="Crown Combat Mystic's Stew card"></a>
-		<a href="#_" class="cardPreview" id="i94437"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i94437.png" alt="Crown Crate Fortifying Meal card"></a>
-		<a href="#_" class="cardPreview" id="i94438"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i94438.png" alt="Crown Crate Refreshing Drink card"></a>
-		<a href="#_" class="cardPreview" id="i64702"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i64702.png" alt="Crown Lesson: Riding Capacity card"></a>
-		<a href="#_" class="cardPreview" id="i64700"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i64700.png" alt="Crown Lesson: Riding Speed card"></a>
-		<a href="#_" class="cardPreview" id="i64701"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i64701.png" alt="Crown Lesson: Riding Stamina card"></a>
-		<a href="#_" class="cardPreview" id="i61079"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i61079.png" alt="Crown Repair Kit card"></a>
-		<a href="#_" class="cardPreview" id="i61080"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i61080.png" alt="Crown Soul Gem card"></a>
-		<a href="#_" class="cardPreview" id="i124677"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i124677.png" alt="Crown Stout Magic Liqueur card"></a>
-		<a href="#_" class="cardPreview" id="i124676"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i124676.png" alt="Crown Vigorous Ragout card"></a>
-		<a href="#_" class="cardPreview" id="i124678"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i124678.png" alt="Crown Vigorous Tincture card"></a>
-		<a href="#_" class="cardPreview" id="i94439"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i94439.png" alt="Gold Coast Experience Scroll card"></a>
+		<a href="#_" class="card-preview" id="i124675"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i124675.png" alt="Crown Combat Mystic's Stew card"></a>
+		<a href="#_" class="card-preview" id="i94437"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i94437.png" alt="Crown Crate Fortifying Meal card"></a>
+		<a href="#_" class="card-preview" id="i94438"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i94438.png" alt="Crown Crate Refreshing Drink card"></a>
+		<a href="#_" class="card-preview" id="i64702"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i64702.png" alt="Crown Lesson: Riding Capacity card"></a>
+		<a href="#_" class="card-preview" id="i64700"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i64700.png" alt="Crown Lesson: Riding Speed card"></a>
+		<a href="#_" class="card-preview" id="i64701"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i64701.png" alt="Crown Lesson: Riding Stamina card"></a>
+		<a href="#_" class="card-preview" id="i61079"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i61079.png" alt="Crown Repair Kit card"></a>
+		<a href="#_" class="card-preview" id="i61080"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i61080.png" alt="Crown Soul Gem card"></a>
+		<a href="#_" class="card-preview" id="i124677"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i124677.png" alt="Crown Stout Magic Liqueur card"></a>
+		<a href="#_" class="card-preview" id="i124676"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i124676.png" alt="Crown Vigorous Ragout card"></a>
+		<a href="#_" class="card-preview" id="i124678"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i124678.png" alt="Crown Vigorous Tincture card"></a>
+		<a href="#_" class="card-preview" id="i94439"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i94439.png" alt="Gold Coast Experience Scroll card"></a>
 		<div class="wrapper">
 			<table>
 				<tr>
-					<td class="fine rowHeader"><img src="images/misc/logo.png" alt="Fine item icon">Fine Reward</td>
+					<td class="fine row-header"><img src="images/misc/logo.png" alt="Fine item icon">Fine Reward</td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(70.42%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(53.37%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -770,7 +780,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(9.72%)</div></td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><a href="#i124675"><img src="images/crate rewards/icons/i124675.png" alt="Crown Combat Mystic's Stew icon">Crown Combat Mystic's Stew</a></td>
+					<td class="fine row-header"><a href="#i124675"><img src="images/crate rewards/icons/i124675.png" alt="Crown Combat Mystic's Stew icon">Crown Combat Mystic's Stew</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(7.59%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(4.50%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -779,7 +789,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(0.70%)</div></td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><a href="#i94437"><img src="images/crate rewards/icons/i94437.png" alt="Crown Crate Fortifying Meal icon">Crown Crate Fortifying Meal</a></td>
+					<td class="fine row-header"><a href="#i94437"><img src="images/crate rewards/icons/i94437.png" alt="Crown Crate Fortifying Meal icon">Crown Crate Fortifying Meal</a></td>
 					<td class="discontinued"><div class="slot">Crate</div><div class="chance">(0.00%)</div></td>
 					<td class="discontinued"><div class="slot">Reward 1</div><div class="chance">(0.00%)</div></td>
 					<td class="discontinued"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -788,7 +798,7 @@
 					<td class="discontinued"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><a href="#i94438"><img src="images/crate rewards/icons/i94438.png" alt="Crown Crate Refreshing Drink icon">Crown Crate Refreshing Drink</a></td>
+					<td class="fine row-header"><a href="#i94438"><img src="images/crate rewards/icons/i94438.png" alt="Crown Crate Refreshing Drink icon">Crown Crate Refreshing Drink</a></td>
 					<td class="discontinued"><div class="slot">Crate</div><div class="chance">(0.00%)</div></td>
 					<td class="discontinued"><div class="slot">Reward 1</div><div class="chance">(0.00%)</div></td>
 					<td class="discontinued"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -797,7 +807,7 @@
 					<td class="discontinued"><div class="slot">Reward 4</div><div class="chance">(0.00%)</div></td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><a href="#i64702"><img src="images/crate rewards/icons/i64702.png" alt="Crown Lesson: Riding Capacity icon">Crown Lesson: Riding Capacity</a></td>
+					<td class="fine row-header"><a href="#i64702"><img src="images/crate rewards/icons/i64702.png" alt="Crown Lesson: Riding Capacity icon">Crown Lesson: Riding Capacity</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(6.89%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(3.91%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -806,7 +816,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(0.68%)</div></td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><a href="#i64700"><img src="images/crate rewards/icons/i64700.png" alt="Crown Lesson: Riding Speed icon">Crown Lesson: Riding Speed</a></td>
+					<td class="fine row-header"><a href="#i64700"><img src="images/crate rewards/icons/i64700.png" alt="Crown Lesson: Riding Speed icon">Crown Lesson: Riding Speed</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(6.84%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(4.12%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -815,7 +825,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(0.70%)</div></td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><a href="#i64701"><img src="images/crate rewards/icons/i64701.png" alt="Crown Lesson: Riding Stamina icon">Crown Lesson: Riding Stamina</a></td>
+					<td class="fine row-header"><a href="#i64701"><img src="images/crate rewards/icons/i64701.png" alt="Crown Lesson: Riding Stamina icon">Crown Lesson: Riding Stamina</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(6.89%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(4.26%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -824,7 +834,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(0.89%)</div></td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><a href="#i61079"><img src="images/crate rewards/icons/i61079.png" alt="Crown Repair Kit icon">Crown Repair Kit</a></td>
+					<td class="fine row-header"><a href="#i61079"><img src="images/crate rewards/icons/i61079.png" alt="Crown Repair Kit icon">Crown Repair Kit</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(13.14%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(7.45%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -833,7 +843,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(1.38%)</div></td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><a href="#i61080"><img src="images/crate rewards/icons/i61080.png" alt="Crown Soul Gem icon">Crown Soul Gem</a></td>
+					<td class="fine row-header"><a href="#i61080"><img src="images/crate rewards/icons/i61080.png" alt="Crown Soul Gem icon">Crown Soul Gem</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(13.35%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(8.29%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -842,7 +852,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(1.43%)</div></td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><a href="#i124677"><img src="images/crate rewards/icons/i124677.png" alt="Crown Stout Magic Liqueur icon">Crown Stout Magic Liqueur</a></td>
+					<td class="fine row-header"><a href="#i124677"><img src="images/crate rewards/icons/i124677.png" alt="Crown Stout Magic Liqueur icon">Crown Stout Magic Liqueur</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(6.58%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(4.15%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -851,7 +861,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(0.68%)</div></td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><a href="#i124676"><img src="images/crate rewards/icons/i124676.png" alt="Crown Vigorous Ragout icon">Crown Vigorous Ragout</a></td>
+					<td class="fine row-header"><a href="#i124676"><img src="images/crate rewards/icons/i124676.png" alt="Crown Vigorous Ragout icon">Crown Vigorous Ragout</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(6.79%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(4.03%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -860,7 +870,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(0.75%)</div></td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><a href="#i124678"><img src="images/crate rewards/icons/i124678.png" alt="Crown Vigorous Tincture icon">Crown Vigorous Tincture</a></td>
+					<td class="fine row-header"><a href="#i124678"><img src="images/crate rewards/icons/i124678.png" alt="Crown Vigorous Tincture icon">Crown Vigorous Tincture</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(7.35%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(4.33%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -869,7 +879,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(0.89%)</div></td>
 				</tr>
 				<tr>
-					<td class="fine rowHeader"><a href="#i94439"><img src="images/crate rewards/icons/i94439.png" alt="Gold Coast Experience Scroll icon">Gold Coast Experience Scroll</a></td>
+					<td class="fine row-header"><a href="#i94439"><img src="images/crate rewards/icons/i94439.png" alt="Gold Coast Experience Scroll icon">Gold Coast Experience Scroll</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(14.26%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(8.34%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -881,17 +891,17 @@
 		</div>
 
 		<h2>Common</h2>
-		<a href="#_" class="cardPreview" id="i112437"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i112437.png" alt="Crown Invisibility Potion (5) card"></a>
-		<a href="#_" class="cardPreview" id="i79690"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i79690.png" alt="Crown Lethal Poison (25) card"></a>
-		<a href="#_" class="cardPreview" id="i71668"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i71668.png" alt="Crown Mimic Stone card"></a>
-		<a href="#_" class="cardPreview" id="i64710"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i64710.png" alt="Crown Tri-Restoration Potion (5) card"></a>
-		<a href="#_" class="cardPreview" id="i112427"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i112427.png" alt="Gold Coast Spellcaster Elixir (5) card"></a>
-		<a href="#_" class="cardPreview" id="i112430"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i112430.png" alt="Gold Coast Survivor Elixir (5) card"></a>
-		<a href="#_" class="cardPreview" id="i112428"><span class="cardPreviewAlign"></span><img src="images/crate rewards/cards/i112428.png" alt="Gold Coast Warrior Elixir (5) card"></a>
+		<a href="#_" class="card-preview" id="i112437"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i112437.png" alt="Crown Invisibility Potion (5) card"></a>
+		<a href="#_" class="card-preview" id="i79690"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i79690.png" alt="Crown Lethal Poison (25) card"></a>
+		<a href="#_" class="card-preview" id="i71668"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i71668.png" alt="Crown Mimic Stone card"></a>
+		<a href="#_" class="card-preview" id="i64710"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i64710.png" alt="Crown Tri-Restoration Potion (5) card"></a>
+		<a href="#_" class="card-preview" id="i112427"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i112427.png" alt="Gold Coast Spellcaster Elixir (5) card"></a>
+		<a href="#_" class="card-preview" id="i112430"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i112430.png" alt="Gold Coast Survivor Elixir (5) card"></a>
+		<a href="#_" class="card-preview" id="i112428"><span class="card-preview-align"></span><img src="images/crate rewards/cards/i112428.png" alt="Gold Coast Warrior Elixir (5) card"></a>
 		<div class="wrapper">
 			<table>
 				<tr>
-					<td class="common rowHeader"><img src="images/misc/logo.png" alt="Common item icon">Common Reward</td>
+					<td class="common row-header"><img src="images/misc/logo.png" alt="Common item icon">Common Reward</td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(98.31%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(36.60%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -900,7 +910,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(90.28%)</div></td>
 				</tr>
 				<tr>
-					<td class="common rowHeader"><a href="#i112437"><img src="images/crate rewards/icons/i112437.png" alt="Crown Invisibility Potion (5) icon">Crown Invisibility Potion (5)</a></td>
+					<td class="common row-header"><a href="#i112437"><img src="images/crate rewards/icons/i112437.png" alt="Crown Invisibility Potion (5) icon">Crown Invisibility Potion (5)</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(26.63%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(5.13%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -909,7 +919,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(14.03%)</div></td>
 				</tr>
 				<tr>
-					<td class="common rowHeader"><a href="#i79690"><img src="images/crate rewards/icons/i79690.png" alt="Crown Lethal Poison (25) icon">Crown Lethal Poison (25)</a></td>
+					<td class="common row-header"><a href="#i79690"><img src="images/crate rewards/icons/i79690.png" alt="Crown Lethal Poison (25) icon">Crown Lethal Poison (25)</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(26.09%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(5.20%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -918,7 +928,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(13.02%)</div></td>
 				</tr>
 				<tr>
-					<td class="common rowHeader"><a href="#i71668"><img src="images/crate rewards/icons/i71668.png" alt="Crown Mimic Stone icon">Crown Mimic Stone</a></td>
+					<td class="common row-header"><a href="#i71668"><img src="images/crate rewards/icons/i71668.png" alt="Crown Mimic Stone icon">Crown Mimic Stone</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(25.48%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(5.36%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -927,7 +937,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(12.76%)</div></td>
 				</tr>
 				<tr>
-					<td class="common rowHeader"><a href="#i64710"><img src="images/crate rewards/icons/i64710.png" alt="Crown Tri-Restoration Potion (5) icon">Crown Tri-Restoration Potion (5)</a></td>
+					<td class="common row-header"><a href="#i64710"><img src="images/crate rewards/icons/i64710.png" alt="Crown Tri-Restoration Potion (5) icon">Crown Tri-Restoration Potion (5)</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(25.04%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(5.06%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -936,7 +946,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(12.06%)</div></td>
 				</tr>
 				<tr>
-					<td class="common rowHeader"><a href="#i112427"><img src="images/crate rewards/icons/i112427.png" alt="Gold Coast Spellcaster Elixir (5) icon">Gold Coast Spellcaster Elixir (5)</a></td>
+					<td class="common row-header"><a href="#i112427"><img src="images/crate rewards/icons/i112427.png" alt="Gold Coast Spellcaster Elixir (5) icon">Gold Coast Spellcaster Elixir (5)</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(26.30%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(5.46%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -945,7 +955,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(12.72%)</div></td>
 				</tr>
 				<tr>
-					<td class="common rowHeader"><a href="#i112430"><img src="images/crate rewards/icons/i112430.png" alt="Gold Coast Survivor Elixir (5) icon">Gold Coast Survivor Elixir (5)</a></td>
+					<td class="common row-header"><a href="#i112430"><img src="images/crate rewards/icons/i112430.png" alt="Gold Coast Survivor Elixir (5) icon">Gold Coast Survivor Elixir (5)</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(25.83%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(5.13%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -954,7 +964,7 @@
 					<td class="obtained"><div class="slot">Reward 4</div><div class="chance">(12.22%)</div></td>
 				</tr>
 				<tr>
-					<td class="common rowHeader"><a href="#i112428"><img src="images/crate rewards/icons/i112428.png" alt="Gold Coast Warrior Elixir (5) icon">Gold Coast Warrior Elixir (5)</a></td>
+					<td class="common row-header"><a href="#i112428"><img src="images/crate rewards/icons/i112428.png" alt="Gold Coast Warrior Elixir (5) icon">Gold Coast Warrior Elixir (5)</a></td>
 					<td class="obtained"><div class="slot">Crate</div><div class="chance">(26.32%)</div></td>
 					<td class="obtained"><div class="slot">Reward 1</div><div class="chance">(5.27%)</div></td>
 					<td class="unobtained"><div class="slot">Reward 2</div><div class="chance">(0.00%)</div></td>
@@ -976,7 +986,7 @@
 				All Rights Reserved.
 			</p>
 			<p>The use of icons and images for the purpose of informing and educating is believed to fall under the fair use clause of copyright law.</p>
-			<p><a class="textLink" href="contact">Contact</a><span class="highlight"> | </span><a class="textLink" href="privacy">Privacy</a></p>
+			<p><a class="text-link" href="contact">Contact</a><span class="highlight"> | </span><a class="text-link" href="privacy">Privacy</a></p>
 		</div>
 	</body>
 </html>
