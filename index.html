@@ -62,42 +62,98 @@
 			</table>
 		</div>
 
-		<h2>Current Season - Xanmeer Crates</h2>
-		<h1 id="countdown" class="fine subtext">Ending soon</h1>
-
-		<div class="wrapper xanmeer">
-			<a class="announcement" href="xanmeer">
-				<img class="responsive-image" src="images/announcements/announcement.png" alt="Xanmeer Crates">
-			</a>
-		</div>
-		<script>
-			var expireDate = new Date(Date.UTC(2019, 02, 28, 14, 00, 00, 00)).getTime();
-
-			var tickInterval = setInterval(doCountdownTick, 1000);
-			doCountdownTick();
-
-			function doCountdownTick() {
-
-				var currentTime = new Date().getTime();
-				var timeLeft = expireDate - currentTime;
-
-				var days = ("0" + Math.floor(timeLeft / (1000 * 60 * 60 * 24))).slice(-2);
-				var hours = ("0" + Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
-				var minutes = ("0" + Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
-				var seconds = ("0" + Math.floor((timeLeft % (1000 * 60)) / 1000)).slice(-2);
-
-				if (timeLeft > 0) {
-					document.getElementById("countdown").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
-				} else {
-					clearInterval(tickInterval);
-					document.getElementById("countdown").innerHTML = "00:00:00:00";
-				}
-			}
-		</script>
-
 		<h2>Drop Rates</h2>
 		<div class="wrapper">
 			<p>It is assumed that the drop rates are constant, have never changed, do not increase after bad luck, and are the same for everyone.</p>
+			<div class="major-panel xanmeer">
+				<a class="panel-link" href="xanmeer">
+					<div class="common panel-name">Xanmeer Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/12.png" alt="Xanmeer Crate icon"></div>
+					<div id="countdown-xanmeer" class="fine panel-timer">Ending soon</div>
+					<img class="responsive-image" src="images/panels/panel.png" alt="Xanmeer Crates">
+				</a>
+			</div><div class="minor-panel ouroboros">
+				<a class="panel-link" href="ouroboros">
+					<div class="common panel-name">Ouroboros Crown Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/11.png" alt="Ouroboros Crown Crate icon"></div>
+					<img class="responsive-image" src="images/panels/panel.png" alt="Ouroboros Crown Crates">
+				</a>
+			</div><div class="minor-panel hollowjack">
+				<a class="panel-link" href="hollowjack">
+					<div class="common panel-name">Hollowjack Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/10.png" alt="Hollowjack Crate icon"></div>
+					<img class="responsive-image" src="images/panels/panel.png" alt="Hollowjack Crates">
+				</a>
+			</div><div class="minor-panel psijicvault">
+				<a class="panel-link" href="psijicvault">
+					<div class="common panel-name">Psijic Vault Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/9.png" alt="Psijic Vault Crate icon"></div>
+					<img class="responsive-image" src="images/panels/panel.png" alt="Psijic Vault Crates">
+				</a>
+			</div><div class="minor-panel scalecaller">
+				<a class="panel-link" href="scalecaller">
+					<div class="common panel-name">Scalecaller Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/8.png" alt="Scalecaller Crate icon"></div>
+					<img class="responsive-image" src="images/panels/panel.png" alt="Scalecaller Crates">
+				</a>
+			</div><div class="minor-panel flameatronach">
+				<a class="panel-link" href="flameatronach">
+					<div class="common panel-name">Flame Atronach Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/6.png" alt="Flame Atronach Crate icon"></div>
+					<img class="responsive-image" src="images/panels/panel.png" alt="Flame Atronach Crates">
+				</a>
+			</div><div class="minor-panel reapersharvest">
+				<a class="panel-link" href="reapersharvest">
+					<div class="common panel-name">Reaper's Harvest Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/5.png" alt="Reaper's Harvest Crate icon"></div>
+					<img class="responsive-image" src="images/panels/panel.png" alt="Reaper's Harvest Crates">
+				</a>
+			</div><div class="minor-panel dwarven">
+				<a class="panel-link" href="dwarven">
+					<div class="common panel-name">Dwarven Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/4.png" alt="Dwarven Crate icon"></div>
+					<img class="responsive-image" src="images/panels/panel.png" alt="Dwarven Crates">
+				</a>
+			</div><div class="minor-panel wildhunt">
+				<a class="panel-link" href="wildhunt">
+					<div class="common panel-name">Wild Hunt Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/2.png" alt="Wild Hunt Crate icon"></div>
+					<img class="responsive-image" src="images/panels/panel.png" alt="Wild Hunt Crates">
+				</a>
+			</div><div class="minor-panel stormatronach">
+				<a class="panel-link" href="stormatronach">
+					<div class="common panel-name">Storm Atronach Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/1.png" alt="Storm Atronach Crate icon"></div>
+					<img class="responsive-image" src="images/panels/panel.png" alt="Storm Atronach Crates">
+				</a>
+			</div>
+
+			<script>
+				var expireDate = new Date(Date.UTC(2019, 02, 28, 14, 00, 00, 00)).getTime();
+
+				var tickInterval = setInterval(doCountdownTick, 1000);
+				doCountdownTick();
+
+				function doCountdownTick() {
+
+					var currentTime = new Date().getTime();
+					var timeLeft = expireDate - currentTime;
+
+					var days = ("0" + Math.floor(timeLeft / (1000 * 60 * 60 * 24))).slice(-2);
+					var hours = ("0" + Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
+					var minutes = ("0" + Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
+					var seconds = ("0" + Math.floor((timeLeft % (1000 * 60)) / 1000)).slice(-2);
+
+					if (timeLeft > 0) {
+						document.getElementById("countdown-xanmeer").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
+					} else {
+						clearInterval(tickInterval);
+						document.getElementById("countdown-xanmeer").innerHTML = "00:00:00:00";
+					}
+				}
+			</script>
+
+			<!-- crown crates table
 			<table>
 				<tr class="full-row-link"><td class="common row-header"><a href="xanmeer"><img src="images/crown crates/icons/12.png" alt="Xanmeer Crate icon">Xanmeer Crate</a></td></tr>
 				<tr class="full-row-link"><td class="common row-header"><a href="ouroboros"><img src="images/crown crates/icons/11.png" alt="Ouroboros Crown Crate icon">Ouroboros Crown Crate</a></td></tr>
@@ -110,6 +166,7 @@
 				<tr class="full-row-link"><td class="common row-header"><a href="wildhunt"><img src="images/crown crates/icons/2.png" alt="Wild Hunt Crate icon">Wild Hunt Crate</a></td></tr>
 				<tr class="full-row-link"><td class="common row-header"><a href="stormatronach"><img src="images/crown crates/icons/1.png" alt="Storm Atronach Crate icon">Storm Atronach Crate</a></td></tr>
 			</table>
+			-->
 		</div>
 
 		<h2>Project Supporters</h2>
@@ -124,7 +181,7 @@
 				<tr><td class="common row-header"><img src="images/supporters/TheeBear.png" alt="Supporter icon">TheeBear</td></tr>
 			</table>
 
-			<!-- example
+			<!-- example supporter
 			<table>
 				<tr class="full-row-link"><td class="common row-header"><a href="https://www.patreon.com/faunter" target="_blank"><img src="images/misc/logo.png" alt="Supporter icon">Become the first to show your support!</a></td></tr>
 			</table>

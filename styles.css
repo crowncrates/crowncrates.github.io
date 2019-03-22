@@ -23,7 +23,8 @@ body {
 	text-shadow: 1px 1px #000000;
 }
 
-h1, h2 {
+h1,
+h2 {
 	margin-top: 3em;
 	margin-bottom: 1em;
 }
@@ -87,40 +88,96 @@ table tr td a {
 	margin-left: auto;
 	margin-right: auto;
 	width: 59em;
+}
+
+.major-panel,
+.minor-panel {
+	position: relative;
+	margin: 0.5%;
 	background-size: 100%;
 }
 
-.announcement {
+.major-panel {
+	width: 99%;
+	margin-top: 0.8em;
+}
+
+.minor-panel {
+	display: inline-block;
+	width: 49%;
+}
+
+.panel-link {
 	display: block;
 	border: 1px solid;
-	margin-top: 1em;
 	background-size: 100%;
-	background-image: url("images/announcements/announcement.png");
+	background-image: url("images/panels/panel.png");
 }
 
-.announcement:hover {
-	background-image: url("images/announcements/hover.png");
+.panel-link:hover {
+	background-image: url("images/panels/hover.png");
 }
 
-.subtext {
-	margin-top: 0;
+.major-panel .panel-name,
+.major-panel .panel-timer {
+	font-size: 2em;
 }
 
-.stormatronach { background-image: url("images/announcements/1.png"); }
-.wildhunt { background-image: url("images/announcements/2.png"); }
-.dwarven { background-image: url("images/announcements/4.png"); }
-.reapersharvest { background-image: url("images/announcements/5.png"); }
-.flameatronach { background-image: url("images/announcements/6.png"); }
-.scalecaller { background-image: url("images/announcements/8.png"); }
-.psijicvault { background-image: url("images/announcements/9.png"); }
-.hollowjack { background-image: url("images/announcements/10.png"); }
-.ouroboros { background-image: url("images/announcements/11.png"); }
-.xanmeer { background-image: url("images/announcements/12.png"); }
-.steedsbounty { background-image: url("images/announcements/14.png"); }
-.crownclassics2 { background-image: url("images/announcements/20.png"); }
-.baandaripedlar { background-image: url("images/announcements/21.png"); }
-.dragonscale { background-image: url("images/announcements/24.png"); }
-.notfound { background-image: url("images/misc/404.png"); }
+.minor-panel .panel-name,
+.minor-panel .panel-timer {
+	font-size: 1.5em;
+}
+
+.panel-name,
+.panel-icon,
+.panel-timer {
+	position: absolute;
+}
+
+.panel-name,
+.panel-icon {
+	top: 0.5em;
+}
+
+.panel-name,
+.panel-timer {
+	font-weight: bold;
+	left: 0.5em;
+}
+
+.panel-icon {
+	right: 0.5em;
+	border: 1px solid;
+	background-image: url("images/panels/iconbg.png");
+}
+
+.panel-timer {
+	border: 1px solid black;
+	background-color: rgba(20, 20, 15, 0.75);
+
+	bottom: 0.5em;
+
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.stormatronach  { background-image: url("images/panels/1.png"); }
+.wildhunt       { background-image: url("images/panels/2.png"); }
+.dwarven        { background-image: url("images/panels/4.png"); }
+.reapersharvest { background-image: url("images/panels/5.png"); }
+.flameatronach  { background-image: url("images/panels/6.png"); }
+.scalecaller    { background-image: url("images/panels/8.png"); }
+.psijicvault    { background-image: url("images/panels/9.png"); }
+.hollowjack     { background-image: url("images/panels/10.png"); }
+.ouroboros      { background-image: url("images/panels/11.png"); }
+.xanmeer        { background-image: url("images/panels/12.png"); }
+.steedsbounty   { background-image: url("images/panels/14.png"); }
+.crownclassics2 { background-image: url("images/panels/20.png"); }
+.baandaripedlar { background-image: url("images/panels/21.png"); }
+.dragonscale    { background-image: url("images/panels/24.png"); }
+.notfound       { background-image: url("images/misc/404.png"); }
 
 .radiant   { color: #EA5C40; }
 .apex      { color: #C16403; }
@@ -197,6 +254,7 @@ table tr td a {
 	background: rgba(20, 20, 15, 0.8);
 	border-top: 2px solid;
 	border-bottom: 2px solid;
+	z-index: 1;
 }
 
 #navbar a {
@@ -313,6 +371,21 @@ table tr td a {
 		width: 35em;
 	}
 
+	.major-panel,
+	.minor-panel {
+		width: 100%;
+	}
+
+	.minor-panel {
+		display: block;
+		margin-top: 1.5%;
+	}
+
+	.major-panel .panel-name,
+	.major-panel .panel-timer {
+		font-size: 1.5em;
+	}
+
 	#drop-table-icon {
 		display: block;
 	}
@@ -406,6 +479,13 @@ table tr td a {
 		width: 100%;
 	}
 
+	.major-panel .panel-name,
+	.minor-panel .panel-name,
+	.major-panel .panel-timer,
+	.minor-panel .panel-timer {
+		font-size: 4vw;
+	}
+
 	#drop-table-header {
 		display: none;
 	}
@@ -460,7 +540,8 @@ table tr td a {
 	}
 
 	/* Make the slot and chance divs appear one after the other and add a space inbetween */
-	.slot, .chance {
+	.slot,
+	.chance {
 		display: inline;
 	}
 
