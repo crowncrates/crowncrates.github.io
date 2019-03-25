@@ -111,7 +111,7 @@ table tr td a {
 	display: block;
 	border: 1px solid;
 	background-size: 100%;
-	background-image: url("images/panels/panel.png");
+	background-image: url("images/panels/base.png");
 }
 
 .panel-link:hover {
@@ -177,7 +177,8 @@ table tr td a {
 .crownclassics2 { background-image: url("images/panels/20.png"); }
 .baandaripedlar { background-image: url("images/panels/21.png"); }
 .dragonscale    { background-image: url("images/panels/24.png"); }
-.notfound       { background-image: url("images/misc/404.png"); }
+.notfound       { background-image: url("images/panels/404.png"); }
+.research       { background-image: url("images/panels/1000.png"); }
 
 .radiant   { color: #EA5C40; }
 .apex      { color: #C16403; }
@@ -232,6 +233,7 @@ table tr td a {
 	width: 100%;
 	height: 100%;
 	border: 1px solid;
+	z-index: 2;
 }
 
 .card-preview img {
@@ -374,11 +376,12 @@ table tr td a {
 	.major-panel,
 	.minor-panel {
 		width: 100%;
+		margin: 0;
+		margin-top: 1em;
 	}
 
 	.minor-panel {
 		display: block;
-		margin-top: 1.5%;
 	}
 
 	.major-panel .panel-name,
