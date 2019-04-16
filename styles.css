@@ -188,6 +188,7 @@ table tr td a {
 .fine      { color: #2DC50E; }
 .common    { color: #FFFFFF; }
 .highlight { color: #78BEC3; }
+.error     { color: #C64343; }
 
 .row-header {
 	text-align: left;
