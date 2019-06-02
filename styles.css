@@ -187,6 +187,7 @@ table tr td a {
 .superior  { color: #3A92FF; }
 .fine      { color: #2DC50E; }
 .common    { color: #FFFFFF; }
+.obtained .slot,
 .highlight { color: #78BEC3; }
 .error     { color: #C64343; }
 
@@ -543,10 +544,14 @@ table tr td a {
 		width: 100%;
 	}
 
-	/* Make the slot and chance divs appear one after the other and add a space inbetween */
+	/* Make the slot and chance divs appear one after the other */
 	.slot,
 	.chance {
 		display: inline;
+	}
+
+	.slot::after {
+		content: " \2012";
 	}
 
 	.chance {
