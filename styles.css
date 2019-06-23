@@ -188,9 +188,16 @@ table tr td a {
 .superior  { color: #3A92FF; }
 .fine      { color: #2DC50E; }
 .common    { color: #FFFFFF; }
+.discontinued,
+.error     { color: #C64343; }
+.obtained-drop .slot,
 .obtained .slot,
 .highlight { color: #78BEC3; }
-.error     { color: #C64343; }
+.bonus-drop .slot,
+.bonus .slot,
+.bonus-card     { color: #2DFFF8; }
+.unobtained,
+.unobtained-drop { color: #3C3C37; }
 
 .row-header {
 	text-align: left;
@@ -201,23 +208,16 @@ table tr td a {
 }
 
 .obtained-drop,
+.bonus-drop,
 .unobtained-drop {
 	width: 10.8%;
 }
 
 .obtained,
+.bonus,
 .unobtained,
 .discontinued {
 	width: 9%;
-}
-
-.unobtained,
-.unobtained-drop {
-	color: #3C3C37;
-}
-
-.discontinued {
-	color: #C64343;
 }
 
 .card-preview {
@@ -392,26 +392,19 @@ table tr td a {
 		font-size: 1.5em;
 	}
 
-	#drop-table-icon {
-		display: block;
-	}
-
 	.row-header {
 		display: block;
 		text-align: center;
 	}
 
-	.obtained-drop::after,
-	.unobtained-drop::after {
-		content: " " attr(suffix);
-	}
-
 	.obtained-drop,
+	.bonus-drop,
 	.unobtained-drop {
 		width: 19%;
 	}
 
 	.obtained,
+	.bonus,
 	.unobtained,
 	.discontinued {
 		width: 16%;
@@ -419,8 +412,10 @@ table tr td a {
 
 	.stat,
 	.obtained-drop,
+	.bonus-drop,
 	.unobtained-drop,
 	.obtained,
+	.bonus,
 	.unobtained,
 	.discontinued {
 		display: inline-block;
@@ -492,10 +487,6 @@ table tr td a {
 		font-size: 4vw;
 	}
 
-	#drop-table-header {
-		display: none;
-	}
-
 	table {
 		border: none;
 	}
@@ -538,11 +529,27 @@ table tr td a {
 	/* Make the row attributes take up the full "box" length */
 	.stat,
 	.obtained-drop,
+	.bonus-drop,
 	.unobtained-drop,
 	.obtained,
+	.bonus,
 	.unobtained,
 	.discontinued {
 		width: 100%;
+	}
+
+	.no-card {
+		padding-bottom: 3%;
+	}
+
+	.obtained-drop,
+	.obtained,
+	.bonus-drop,
+	.bonus,
+	.unobtained-drop,
+	.unobtained {
+		text-align: left;
+		padding-left: 25%;
 	}
 
 	/* Make the slot and chance divs appear one after the other */
