@@ -181,23 +181,20 @@ table tr td a {
 .notfound        { background-image: url("images/panels/404.png"); }
 .research        { background-image: url("images/panels/1000.png"); }
 
-.radiant   { color: #EA5C40; }
-.apex      { color: #C16403; }
-.legendary { color: #EECA2A; }
-.epic      { color: #A02EF7; }
-.superior  { color: #3A92FF; }
-.fine      { color: #2DC50E; }
-.common    { color: #FFFFFF; }
+.radiant    { color: #EA5C40; }
+.apex       { color: #C16403; }
+.legendary  { color: #EECA2A; }
+.epic       { color: #A02EF7; }
+.superior   { color: #3A92FF; }
+.fine       { color: #2DC50E; }
+.common     { color: #FFFFFF; }
 .discontinued,
-.error     { color: #C64343; }
-.obtained-drop .slot,
+.error      { color: #C64343; }
 .obtained .slot,
-.highlight { color: #78BEC3; }
-.bonus-drop .slot,
+.highlight  { color: #78BEC3; }
 .bonus .slot,
-.bonus-card     { color: #2DFFF8; }
-.unobtained,
-.unobtained-drop { color: #3C3C37; }
+.bonus-card { color: #2DFFF8; }
+.unobtained { color: #3C3C37; }
 
 .row-header {
 	text-align: left;
@@ -205,12 +202,6 @@ table tr td a {
 
 .stat {
 	width: 54%;
-}
-
-.obtained-drop,
-.bonus-drop,
-.unobtained-drop {
-	width: 10.8%;
 }
 
 .obtained,
@@ -397,12 +388,6 @@ table tr td a {
 		text-align: center;
 	}
 
-	.obtained-drop,
-	.bonus-drop,
-	.unobtained-drop {
-		width: 19%;
-	}
-
 	.obtained,
 	.bonus,
 	.unobtained,
@@ -411,9 +396,6 @@ table tr td a {
 	}
 
 	.stat,
-	.obtained-drop,
-	.bonus-drop,
-	.unobtained-drop,
 	.obtained,
 	.bonus,
 	.unobtained,
@@ -528,9 +510,6 @@ table tr td a {
 
 	/* Make the row attributes take up the full "box" length */
 	.stat,
-	.obtained-drop,
-	.bonus-drop,
-	.unobtained-drop,
 	.obtained,
 	.bonus,
 	.unobtained,
@@ -542,11 +521,8 @@ table tr td a {
 		padding-bottom: 3%;
 	}
 
-	.obtained-drop,
 	.obtained,
-	.bonus-drop,
 	.bonus,
-	.unobtained-drop,
 	.unobtained {
 		text-align: left;
 		padding-left: 25%;
