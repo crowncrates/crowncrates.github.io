@@ -528,6 +528,12 @@ table tr td a {
 		padding-left: 25%;
 	}
 
+	.drop-table .obtained,
+	.drop-table .bonus,
+	.drop-table .unobtained {
+		padding-left: 30%;
+	}
+
 	/* Make the slot and chance divs appear one after the other */
 	.slot,
 	.chance {
