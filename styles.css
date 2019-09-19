@@ -163,23 +163,27 @@ table tr td a {
 	padding-right: 0.5em;
 }
 
-.stormatronach   { background-image: url("images/panels/1.png"); }
-.wildhunt        { background-image: url("images/panels/2.png"); }
-.dwarven         { background-image: url("images/panels/4.png"); }
-.reapersharvest  { background-image: url("images/panels/5.png"); }
-.flameatronach   { background-image: url("images/panels/6.png"); }
-.scalecaller     { background-image: url("images/panels/8.png"); }
-.psijicvault     { background-image: url("images/panels/9.png"); }
-.hollowjack      { background-image: url("images/panels/10.png"); }
-.ouroboros       { background-image: url("images/panels/11.png"); }
-.xanmeer         { background-image: url("images/panels/12.png"); }
-.steedsbounty    { background-image: url("images/panels/14.png"); }
-.crownclassics2  { background-image: url("images/panels/20.png"); }
-.baandaripedlar  { background-image: url("images/panels/21.png"); }
-.dragonscale     { background-image: url("images/panels/24.png"); }
-.baandaripreview { background-image: url("images/panels/26.png"); }
-.notfound        { background-image: url("images/panels/404.png"); }
-.research        { background-image: url("images/panels/1000.png"); }
+.stormatronach        { background-image: url("images/panels/1.png"); }
+.wildhunt             { background-image: url("images/panels/2.png"); }
+.dwarven              { background-image: url("images/panels/4.png"); }
+.reapersharvest       { background-image: url("images/panels/5.png"); }
+.flameatronach        { background-image: url("images/panels/6.png"); }
+.scalecaller          { background-image: url("images/panels/8.png"); }
+.psijicvault          { background-image: url("images/panels/9.png"); }
+.hollowjack           { background-image: url("images/panels/10.png"); }
+.ouroboros            { background-image: url("images/panels/11.png"); }
+.xanmeer              { background-image: url("images/panels/12.png"); }
+.steedsbounty         { background-image: url("images/panels/14.png"); }
+.crownclassics2       { background-image: url("images/panels/20.png"); }
+.baandaripedlar       { background-image: url("images/panels/21.png"); }
+.dragonscale          { background-image: url("images/panels/24.png"); }
+.baandaripreview      { background-image: url("images/panels/26.png"); }
+.newmoonpreview       { background-image: url("images/panels/27.png"); }
+.newmoon              { background-image: url("images/panels/28.png"); }
+.frostatronachpreview { background-image: url("images/panels/29.png"); }
+.frostatronach        { background-image: url("images/panels/30.png"); }
+.notfound             { background-image: url("images/panels/404.png"); }
+.research             { background-image: url("images/panels/1000.png"); }
 
 .radiant    { color: #EA5C40; }
 .apex       { color: #C16403; }
