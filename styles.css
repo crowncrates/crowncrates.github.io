@@ -99,7 +99,6 @@ table tr td a {
 
 .major-panel {
 	width: 99%;
-	margin-top: 0.6em;
 }
 
 .minor-panel {
@@ -184,6 +183,7 @@ table tr td a {
 .frostatronach        { background-image: url("images/panels/30.png"); }
 .notfound             { background-image: url("images/panels/404.png"); }
 .research             { background-image: url("images/panels/1000.png"); }
+.shrine               { background-image: url("images/panels/1001.png"); }
 
 .radiant    { color: #EA5C40; }
 .apex       { color: #C16403; }
