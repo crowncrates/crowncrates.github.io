@@ -19,7 +19,7 @@ body {
 	text-align: center;
 	color: #C5BF9E;
 	background-color: #282823;
-	background-image: url("images/misc/bg.png");
+	background-image: url("images/misc/bg.jpg");
 	background-attachment: fixed;
 	text-shadow: 1px 1px #000000;
 }
@@ -113,11 +113,10 @@ table tr td a {
 	/* border: 1px solid; */
 	outline: 1px solid #C5BF9E;
 	outline-offset: -1px;
-	background-size: 100%;
-	background-image: url("images/misc/panel-base.png");
 }
 
 .panel-link:hover {
+	background-size: 100%;
 	background-image: url("images/misc/panel-hover.png");
 }
 
@@ -151,7 +150,7 @@ table tr td a {
 .panel-icon {
 	right: 0.5em;
 	border: 1px solid;
-	background-image: url("images/misc/iconbg.png");
+	background-image: url("images/misc/iconbg.jpg");
 }
 
 .panel-text {
@@ -166,29 +165,28 @@ table tr td a {
 	padding-right: 0.5em;
 }
 
-.stormatronach        { background-image: url("images/crown crates/panels/1.png"); }
-.wildhunt             { background-image: url("images/crown crates/panels/2.png"); }
-.dwarven              { background-image: url("images/crown crates/panels/4.png"); }
-.reapersharvest       { background-image: url("images/crown crates/panels/5.png"); }
-.flameatronach        { background-image: url("images/crown crates/panels/6.png"); }
-.scalecaller          { background-image: url("images/crown crates/panels/8.png"); }
-.psijicvault          { background-image: url("images/crown crates/panels/9.png"); }
-.hollowjack           { background-image: url("images/crown crates/panels/10.png"); }
-.ouroboros            { background-image: url("images/crown crates/panels/11.png"); }
-.xanmeer              { background-image: url("images/crown crates/panels/12.png"); }
-.steedsbounty         { background-image: url("images/crown crates/panels/14.png"); }
-.crownclassics2       { background-image: url("images/crown crates/panels/20.png"); }
-.baandaripedlar       { background-image: url("images/crown crates/panels/21.png"); }
-.dragonscale          { background-image: url("images/crown crates/panels/24.png"); }
-.baandaripreview      { background-image: url("images/crown crates/panels/26.png"); }
-.newmoonpreview       { background-image: url("images/crown crates/panels/27.png"); }
-.newmoon              { background-image: url("images/crown crates/panels/28.png"); }
-.frostatronachpreview { background-image: url("images/crown crates/panels/29.png"); }
-.frostatronach        { background-image: url("images/crown crates/panels/30.png"); }
-.milestone            { background-image: url("images/misc/panel-200.png"); }
-.notfound             { background-image: url("images/misc/panel-404.png"); }
-.research             { background-image: url("images/misc/panel-research.png"); }
-.shrine               { background-image: url("images/misc/panel-standby.png"); }
+.stormatronach        { background-image: url("images/crown crates/panels/1.jpg"); }
+.wildhunt             { background-image: url("images/crown crates/panels/2.jpg"); }
+.dwarven              { background-image: url("images/crown crates/panels/4.jpg"); }
+.reapersharvest       { background-image: url("images/crown crates/panels/5.jpg"); }
+.flameatronach        { background-image: url("images/crown crates/panels/6.jpg"); }
+.scalecaller          { background-image: url("images/crown crates/panels/8.jpg"); }
+.psijicvault          { background-image: url("images/crown crates/panels/9.jpg"); }
+.hollowjack           { background-image: url("images/crown crates/panels/10.jpg"); }
+.ouroboros            { background-image: url("images/crown crates/panels/11.jpg"); }
+.xanmeer              { background-image: url("images/crown crates/panels/12.jpg"); }
+.steedsbounty         { background-image: url("images/crown crates/panels/14.jpg"); }
+.crownclassics2       { background-image: url("images/crown crates/panels/20.jpg"); }
+.baandaripedlar       { background-image: url("images/crown crates/panels/21.jpg"); }
+.dragonscale          { background-image: url("images/crown crates/panels/24.jpg"); }
+.baandaripreview      { background-image: url("images/crown crates/panels/26.jpg"); }
+.newmoonpreview       { background-image: url("images/crown crates/panels/27.jpg"); }
+.newmoon              { background-image: url("images/crown crates/panels/28.jpg"); }
+.frostatronachpreview { background-image: url("images/crown crates/panels/29.jpg"); }
+.frostatronach        { background-image: url("images/crown crates/panels/30.jpg"); }
+.milestone            { background-image: url("images/misc/panel-200.jpg"); }
+.notfound             { background-image: url("images/misc/panel-404.jpg"); }
+.research             { background-image: url("images/misc/panel-research.jpg"); }
 
 .radiant     { color: #EA5C40; }
 .apex        { color: #C16403; }
