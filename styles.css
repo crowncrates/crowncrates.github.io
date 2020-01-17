@@ -17,7 +17,7 @@ html {
 body {
 	font-family: arial;
 	text-align: center;
-	color: #C5BF9E;
+	color: #B9C3CD; /*#C5BF9E;*/
 	background-color: #282823;
 	background-image: url("images/misc/bg.jpg");
 	background-attachment: fixed;
@@ -26,11 +26,13 @@ body {
 
 h1,
 h2 {
+	color: #B5D6F5;
 	margin-top: 3em;
 	margin-bottom: 1em;
 }
 
 h3 {
+	color: #B5D6F5;
 	margin-top: 3em;
 }
 
@@ -55,7 +57,7 @@ table {
 
 	border-collapse: collapse;
 	font-size: 81.3%;
-	border: 1px solid #C5BF9E;
+	border: 1px solid #9EA6AD; /*#C5BF9E;*/
 
 	font-weight: bold;
 }
@@ -111,7 +113,7 @@ table tr td a {
 .panel-link {
 	display: block;
 	/* border: 1px solid; */
-	outline: 1px solid #C5BF9E;
+	outline: 1px solid #9EA6AD; /*#C5BF9E;*/
 	outline-offset: -1px;
 }
 

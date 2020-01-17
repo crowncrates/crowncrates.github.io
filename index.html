@@ -48,19 +48,19 @@
 			<table>
 				<tr>
 					<td class="common row-header"><img src="images/crown crates/icons/3.png" alt="Crown Crate icon">Crown Crate</td>
-					<td class="stat">216,628 crates</td>
+					<td class="stat">222,792 crates</td>
 				</tr>
 				<tr>
 					<td class="row-header"><img src="images/card backs/icons/normal/3.png" alt="Crown Crate normal card icon">Normal card</td>
-					<td class="stat">862,510 cards</td>
+					<td class="stat">887,142 cards</td>
 				</tr>
 				<tr>
 					<td class="row-header"><img src="images/card backs/icons/bonus/3.png" alt="Crown Crate bonus card icon">Bonus card</td>
-					<td class="stat">38,732 cards </td>
+					<td class="stat">39,760 cards </td>
 				</tr>
 				<tr>
 					<td class="row-header"><img src="images/misc/logo.png" alt="Crown Crate bonus drop icon">Bonus card drop rate</td>
-					<td class="stat">17.11% chance</td>
+					<td class="stat">17.10% chance</td>
 				</tr>
 			</table>
 		</div>
@@ -123,13 +123,13 @@
 					var minutes = ("0" + Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
 					var seconds = ("0" + Math.floor((timeLeft % (1000 * 60)) / 1000)).slice(-2);
 
-						if (timeLeft > 0) {
-							timer.innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
-						} else {
-							clearInterval(tickInterval);
-							timer.className = "error panel-text";
-							timer.innerHTML = "Sale ended";
-						}
+					if (timeLeft > 0) {
+						timer.innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
+					} else {
+						clearInterval(tickInterval);
+						timer.className = "error panel-text";
+						timer.innerHTML = "Sale ended";
+					}
 				}
 				doCountdownTick();
 
