@@ -71,16 +71,17 @@
 				<p class="error">Warning: JavaScript is disabled in your browser. This is a debuff to the website and to your browsing experience.</p>
 			</noscript>
 			<p>It is assumed that the drop rates are constant, have never changed, do not increase after bad luck, and are the same for everyone.</p>
-			<div class="major-panel frostatronach">
-				<a class="panel-link" href="frostatronach">
-					<div class="common panel-name">Frost Atronach Crates</div>
-					<div class="panel-icon"><img src="images/crown crates/icons/30.png" alt="Frost Atronach Crate icon"></div>
-					<div id="countdown" class="fine panel-text">Ending soon</div>
-					<img class="responsive-image" src="images/misc/panel-base.png" alt="Frost Atronach Crates">
+			<div class="major-panel gloomspore">
+				<a class="panel-link" href="gloomspore">
+					<div class="common panel-name">Gloomspore Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/37.png" alt="Gloomspore Crate icon"></div>
+					<div class="bonus-card panel-text-left">New!</div>
+					<!-- <div id="countdown" class="fine panel-text-left">Ending soon</div> -->
+					<img class="responsive-image" src="images/misc/panel-base.png" alt="Gloomspore Crates">
 				</a>
 			</div>
 
-			<!-- Frost atronach ending -->
+			<!-- Frost atronach ending
 			<script>
 				var startDate = new Date(Date.UTC(2020, 01, 20, 14, 00, 00, 00)).getTime();
 				var expireDate = new Date(Date.UTC(2020, 02, 19, 14, 00, 00, 00)).getTime();
@@ -90,10 +91,10 @@
 				var saleStarted;
 				if (currentDate < startDate) {
 					saleStarted = false
-					timer.className = "error panel-text";
+					timer.className = "error panel-text-left";
 				} else {
 					saleStarted = true;
-					timer.className = "fine panel-text";
+					timer.className = "fine panel-text-left";
 				}
 
 				var tickInterval = setInterval(doCountdownTick, 1000);
@@ -107,7 +108,7 @@
 						timeLeft = expireDate - currentTime;
 						if (!saleStarted) {
 							saleStarted = true;
-							timer.className = "fine panel-text";
+							timer.className = "fine panel-text-left";
 						}
 					}
 
@@ -120,14 +121,14 @@
 						timer.innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
 					} else {
 						clearInterval(tickInterval);
-						timer.className = "error panel-text";
+						timer.className = "error panel-text-left";
 						timer.innerHTML = "Sale ended";
 					}
 				}
 				doCountdownTick();
 
 			</script>
-			<!-- -->
+			-->
 		</div>
 
 		<h2>Ad-Free Website Supporters</h2>
@@ -157,33 +158,33 @@
 				The crates listed here are not currently available in the crown store.
 				Some of them might still be obtainable through other means.
 			</p>
-			<div class="major-panel gloomspore">
-				<a class="panel-link" href="gloomspore">
-					<div class="common panel-name">Gloomspore Crates</div>
-					<div class="panel-icon"><img src="images/crown crates/icons/37.png" alt="Gloomspore Crate icon"></div>
-					<div class="bonus-card panel-text">New!</div>
-					<img class="responsive-image" src="images/misc/panel-base.png" alt="Gloomspore Crates">
-				</a>
-			</div><div class="minor-panel gloomsporepreview">
+			<div class="major-panel gloomsporepreview">
 				<a class="panel-link" href="gloomsporepreview">
 					<div class="common panel-name">Gloomspore Preview</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/36.png" alt="Gloomspore Preview Crate icon"></div>
-					<div class="bonus-card panel-text">New!</div>
+					<div class="bonus-card panel-text-left">New!</div>
+					<div class="legendary panel-text-right">&#128204;</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Gloomspore Preview Crates">
 				</a>
 			</div><div class="minor-panel ouroboros">
 				<a class="panel-link" href="ouroboros">
 					<div class="common panel-name">Ouroboros Crown Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/11.png" alt="Ouroboros Crown Crate icon"></div>
-					<div class="legendary panel-text">&#10041;</div>
+					<div class="legendary panel-text-right">&#128204;</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Ouroboros Crown Crates">
 				</a>
 			</div><div class="minor-panel flameatronach">
 				<a class="panel-link" href="flameatronach">
 					<div class="common panel-name">Flame Atronach Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/6.png" alt="Flame Atronach Crate icon"></div>
-					<div class="legendary panel-text">&#10041;</div>
+					<div class="legendary panel-text-right">&#128204;</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Flame Atronach Crates">
+				</a>
+			</div><div class="minor-panel frostatronach">
+				<a class="panel-link" href="frostatronach">
+					<div class="common panel-name">Frost Atronach Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/30.png" alt="Frost Atronach Crate icon"></div>
+					<img class="responsive-image" src="images/misc/panel-base.png" alt="Frost Atronach Crates">
 				</a>
 			</div><div class="minor-panel frostatronachpreview">
 				<a class="panel-link" href="frostatronachpreview">
@@ -191,29 +192,29 @@
 					<div class="panel-icon"><img src="images/crown crates/icons/29.png" alt="Frost Atronach Preview Crate icon"></div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Frost Atronach Preview Crates">
 				</a>
-			</div><div class="minor-panel newmoonpreview">
-				<a class="panel-link" href="newmoonpreview">
-					<div class="common panel-name">New Moon Preview</div>
-					<div class="panel-icon"><img src="images/crown crates/icons/27.png" alt="New Moon Preview Crate icon"></div>
-					<img class="responsive-image" src="images/misc/panel-base.png" alt="New Moon Preview Crates">
-				</a>
 			</div><div class="minor-panel newmoon">
 				<a class="panel-link" href="newmoon">
 					<div class="common panel-name">New Moon Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/28.png" alt="New Moon Crate icon"></div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="New Moon Crates">
 				</a>
-			</div><div class="minor-panel baandaripreview">
-				<a class="panel-link" href="baandaripedlarpreview">
-					<div class="common panel-name">Baandari Pedlar Preview</div>
-					<div class="panel-icon"><img src="images/crown crates/icons/26.png" alt="Baandari Pedlar Preview Crate icon"></div>
-					<img class="responsive-image" src="images/misc/panel-base.png" alt="Baandari Pedlar Preview Crates">
+			</div><div class="minor-panel newmoonpreview">
+				<a class="panel-link" href="newmoonpreview">
+					<div class="common panel-name">New Moon Preview</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/27.png" alt="New Moon Preview Crate icon"></div>
+					<img class="responsive-image" src="images/misc/panel-base.png" alt="New Moon Preview Crates">
 				</a>
 			</div><div class="minor-panel baandaripedlar">
 				<a class="panel-link" href="baandaripedlar">
 					<div class="common panel-name">Baandari Pedlar Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/21.png" alt="Baandari Pedlar Crate icon"></div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Baandari Pedlar Crates">
+				</a>
+			</div><div class="minor-panel baandaripreview">
+				<a class="panel-link" href="baandaripedlarpreview">
+					<div class="common panel-name">Baandari Pedlar Preview</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/26.png" alt="Baandari Pedlar Preview Crate icon"></div>
+					<img class="responsive-image" src="images/misc/panel-base.png" alt="Baandari Pedlar Preview Crates">
 				</a>
 			</div><div class="minor-panel dragonscale">
 				<a class="panel-link" href="dragonscale">
@@ -304,14 +305,14 @@
 				<a class="panel-link" href="steedsbounty">
 					<div class="common panel-name">The Steed's Bounty Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/14.png" alt="The Steed's Bounty Crate icon"></div>
-					<div class="error panel-text">Datamined</div>
+					<div class="error panel-text-left">Datamined</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="The Steed's Bounty Crates">
 				</a>
 			</div><div class="minor-panel crownclassics2">
 				<a class="panel-link" href="crownclassics2">
 					<div class="common panel-name">Crown Classics 2 Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/20.png" alt="Crown Classics Volume 2 Crate icon"></div>
-					<div class="error panel-text">Datamined</div>
+					<div class="error panel-text-left">Datamined</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Classics Volume 2 Crates">
 				</a>
 			</div>

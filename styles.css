@@ -123,18 +123,21 @@ table tr td a {
 }
 
 .major-panel .panel-name,
-.major-panel .panel-text {
+.major-panel .panel-text-left,
+.major-panel .panel-text-right {
 	font-size: 2em;
 }
 
 .minor-panel .panel-name,
-.minor-panel .panel-text {
+.minor-panel .panel-text-left,
+.minor-panel .panel-text-right {
 	font-size: 1.5em;
 }
 
 .panel-name,
 .panel-icon,
-.panel-text {
+.panel-text-left,
+.panel-text-right {
 	position: absolute;
 }
 
@@ -144,9 +147,14 @@ table tr td a {
 }
 
 .panel-name,
-.panel-text {
+.panel-text-left {
 	font-weight: bold;
 	left: 0.5em;
+}
+
+.panel-text-right {
+	font-weight: bold;
+	right: 0.5em;
 }
 
 .panel-icon {
@@ -155,7 +163,8 @@ table tr td a {
 	background-image: url("images/misc/iconbg.jpg");
 }
 
-.panel-text {
+.panel-text-left,
+.panel-text-right {
 	border: 1px solid black;
 	background-color: rgba(20, 20, 15, 0.75);
 
@@ -411,7 +420,8 @@ table tr td a {
 	}
 
 	.major-panel .panel-name,
-	.major-panel .panel-text {
+	.major-panel .panel-text-left,
+	.major-panel .panel-text-right {
 		font-size: 1.5em;
 	}
 
@@ -498,8 +508,10 @@ table tr td a {
 
 	.major-panel .panel-name,
 	.minor-panel .panel-name,
-	.major-panel .panel-text,
-	.minor-panel .panel-text {
+	.major-panel .panel-text-left,
+	.major-panel .panel-text-right,
+	.minor-panel .panel-text-left,
+	.minor-panel .panel-text-right {
 		font-size: 4vw;
 	}
 
