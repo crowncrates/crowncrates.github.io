@@ -5,6 +5,7 @@
 	outline: none;
 }
 
+/*
 html {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -13,6 +14,7 @@ html {
 	-ms-user-select: none;
 	user-select: none;
 }
+*/
 
 body {
 	font-family: arial;
@@ -197,6 +199,11 @@ table tr td a {
 .frostatronach        { background-image: url("images/crown crates/panels/30.jpg"); }
 .gloomsporepreview    { background-image: url("images/crown crates/panels/36.jpg"); }
 .gloomspore           { background-image: url("images/crown crates/panels/37.jpg"); }
+.nightfallpreview     { background-image: url("images/crown crates/panels/38.jpg"); }
+.nightfall            { background-image: url("images/crown crates/panels/39.jpg"); }
+.sovngardepreview     { background-image: url("images/crown crates/panels/40.jpg"); }
+.sovngarde            { background-image: url("images/crown crates/panels/41.jpg"); }
+.unknowndragonscale   { background-image: url("images/crown crates/panels/unknowndragonscale.jpg"); }
 .milestone            { background-image: url("images/misc/panel-200.jpg"); }
 .notfound             { background-image: url("images/misc/panel-404.jpg"); }
 .research             { background-image: url("images/misc/panel-research.jpg"); }
