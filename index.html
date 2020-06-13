@@ -75,41 +75,36 @@
 				<a class="panel-link" href="gloomspore">
 					<div class="common panel-name">Gloomspore Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/37.png" alt="Gloomspore Crate icon"></div>
-					<!-- <div id="countdown" class="fine panel-text-left">Ending soon</div> -->
+					<div id="countdown-end" class="fine panel-text-left">Sale ending</div>
+					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
+				</a>
+			</div><div class="major-panel nightfall">
+				<a class="panel-link" href="nightfall">
+					<div class="common panel-name">Nightfall Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/39.png" alt="Nightfall Crate icon"></div>
+					<div id="countdown-start" class="error panel-text-left">Sale starting</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
 			</div>
 
-			<!-- Storm atronach sale
 			<script>
-				var startDate = new Date(Date.UTC(2020, 03, 30, 14, 00, 00, 00)).getTime();
-				var expireDate = new Date(Date.UTC(2020, 04, 07, 14, 00, 00, 00)).getTime();
 				var currentDate = new Date().getTime();
-
-				var timer = document.getElementById("countdown");
-				var saleStarted;
-				if (currentDate < startDate) {
-					saleStarted = false
-					timer.className = "error panel-text-left";
-				} else {
-					saleStarted = true;
-					timer.className = "fine panel-text-left";
-				}
+				var eventDate = new Date(Date.UTC(2020, 05, 18, 14, 00, 00, 00)).getTime();
+				var eventDate = new Date(Date.UTC(2020, 05, 13, 19, 54, 40, 00)).getTime();
+				var timerStart = document.getElementById("countdown-start");
+				var timerEnd = document.getElementById("countdown-end");
 
 				var tickInterval = setInterval(doCountdownTick, 1000);
 				function doCountdownTick() {
+					console.log("tick");
 					var currentTime = new Date().getTime();
 					var timeLeft;
 
-					if (currentTime < startDate) {
-						timeLeft = startDate - currentTime;
-					} else {
-						timeLeft = expireDate - currentTime;
-						if (!saleStarted) {
-							saleStarted = true;
-							timer.className = "fine panel-text-left";
-						}
-					}
+					if (currentTime < eventDate) {
+						timeLeft = eventDate - currentTime;
+					}/* else {
+						timeLeft = currentTime - eventDate;
+					}*/
 
 					var days = ("0" + Math.floor(timeLeft / (1000 * 60 * 60 * 24))).slice(-2);
 					var hours = ("0" + Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
@@ -117,17 +112,18 @@
 					var seconds = ("0" + Math.floor((timeLeft % (1000 * 60)) / 1000)).slice(-2);
 
 					if (timeLeft > 0) {
-						timer.innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
+						timerStart.innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
+						timerEnd.innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
 					} else {
 						clearInterval(tickInterval);
-						timer.className = "error panel-text-left";
-						timer.innerHTML = "Sale ended";
+						timerStart.className = "fine panel-text-left";
+						timerStart.innerHTML = "Sale started";
+						timerEnd.className = "error panel-text-left";
+						timerEnd.innerHTML = "Sale ended";
 					}
 				}
 				doCountdownTick();
-
 			</script>
-			-->
 		</div>
 
 		<h2>Ad-Free Website Supporters</h2>
@@ -158,15 +154,7 @@
 				The crates listed here are not currently available in the crown store.
 				Some of them might still be obtainable through other means.
 			</p>
-			<div class="major-panel nightfallpreview">
-				<a class="panel-link" href="nightfallpreview">
-					<div class="common panel-name">Nightfall Preview</div>
-					<div class="panel-icon"><img src="images/crown crates/icons/38.png" alt="Nightfall Preview Crate icon"></div>
-					<div class="bonus-card panel-text-left">New!</div>
-					<div class="legendary panel-text-right">&#128204;</div>
-					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
-				</a>
-			</div><div class="minor-panel ouroboros">
+			<div class="major-panel ouroboros">
 				<a class="panel-link" href="ouroboros">
 					<div class="common panel-name">Ouroboros Crown Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/11.png" alt="Ouroboros Crown Crate icon"></div>
@@ -178,6 +166,12 @@
 					<div class="common panel-name">Flame Atronach Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/6.png" alt="Flame Atronach Crate icon"></div>
 					<div class="legendary panel-text-right">&#128204;</div>
+					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
+				</a>
+			</div><div class="minor-panel nightfallpreview">
+				<a class="panel-link" href="nightfallpreview">
+					<div class="common panel-name">Nightfall Preview</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/38.png" alt="Nightfall Preview Crate icon"></div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
 			</div><div class="minor-panel gloomsporepreview">
@@ -306,14 +300,7 @@
 				<tr class="generic-preview" data-img-src="images/crown crates/crates/unknowndragonscale.png" data-img-alt="Dragonscale Preview Crate"><td class="common row-header"><img src="images/crown crates/icons/unknowndragonscale.png" alt="Dragonscale Preview Crate icon">Dragonscale Preview Crates</td></tr>
 			</table>
 			-->
-			<div class="minor-panel nightfall">
-				<a class="panel-link" href="nightfall">
-					<div class="common panel-name">Nightfall Crates</div>
-					<div class="panel-icon"><img src="images/crown crates/icons/39.png" alt="Nightfall Crate icon"></div>
-					<div class="error panel-text-left">Datamined</div>
-					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
-				</a>
-			</div><div class="minor-panel sovngarde">
+			<div class="minor-panel sovngarde">
 				<a class="panel-link" href="sovngarde">
 					<div class="common panel-name">Sovngarde Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/41.png" alt="Sovngarde Crate icon"></div>
