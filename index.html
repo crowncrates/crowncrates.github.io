@@ -71,18 +71,18 @@
 				<p class="error">Warning: JavaScript is disabled in your browser. This is a debuff to the website and to your browsing experience.</p>
 			</noscript>
 			<p>It is assumed that the drop rates are constant, have never changed, do not increase after bad luck, and are the same for everyone.</p>
-			<div class="major-panel gloomspore">
-				<a class="panel-link" href="gloomspore">
-					<div class="common panel-name">Gloomspore Crates</div>
-					<div class="panel-icon"><img src="images/crown crates/icons/37.png" alt="Gloomspore Crate icon"></div>
-					<div id="countdown-end" class="fine panel-text-left">Sale ending</div>
-					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
-				</a>
-			</div><div class="major-panel nightfall">
+			<div class="major-panel nightfall">
 				<a class="panel-link" href="nightfall">
 					<div class="common panel-name">Nightfall Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/39.png" alt="Nightfall Crate icon"></div>
 					<div id="countdown-start" class="error panel-text-left">Sale starting</div>
+					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
+				</a>
+			</div><div class="major-panel gloomspore">
+				<a class="panel-link" href="gloomspore">
+					<div class="common panel-name">Gloomspore Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/37.png" alt="Gloomspore Crate icon"></div>
+					<div id="countdown-end" class="fine panel-text-left">Sale ending</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
 			</div>
@@ -111,7 +111,7 @@
 					var seconds = ("0" + Math.floor((timeLeft % (1000 * 60)) / 1000)).slice(-2);
 
 					if (timeLeft > 0) {
-						timerStart.innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
+						timerStart.innerHTML = "-" + days + ":" + hours + ":" + minutes + ":" + seconds;
 						timerEnd.innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
 					} else {
 						clearInterval(tickInterval);
