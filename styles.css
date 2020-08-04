@@ -178,6 +178,13 @@ table tr td a {
 	padding-right: 0.5em;
 }
 
+.donate-icon {
+	display: inline-block;
+	margin-left: 0.5em;
+	margin-bottom: 0.75em;
+	margin-right: 0.5em;
+}
+
 .stormatronach        { background-image: url("images/crown crates/panels/1.jpg"); }
 .wildhunt             { background-image: url("images/crown crates/panels/2.jpg"); }
 .dwarven              { background-image: url("images/crown crates/panels/4.jpg"); }
