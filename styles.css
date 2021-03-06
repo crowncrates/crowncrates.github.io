@@ -20,7 +20,7 @@ body {
 	font-family: arial;
 	text-align: center;
 	color: #C5BF9E; /*#B9C3CD;*/
-	background-color: #282823;
+	background-color: #28231E; /*#282823;*/
 	background-image: url("images/misc/bg.jpg");
 	background-attachment: fixed;
 	text-shadow: 1px 1px #000000;
@@ -181,42 +181,44 @@ table tr td a {
 
 .donate-icon {
 	display: inline-block;
+	margin-top: 0.75em;
 	margin-left: 0.5em;
 	margin-bottom: 0.75em;
 	margin-right: 0.5em;
 }
 
-.stormatronach        { background-image: url("images/crown crates/panels/1.jpg"); }
-.wildhunt             { background-image: url("images/crown crates/panels/2.jpg"); }
-.dwarven              { background-image: url("images/crown crates/panels/4.jpg"); }
-.reapersharvest       { background-image: url("images/crown crates/panels/5.jpg"); }
-.flameatronach        { background-image: url("images/crown crates/panels/6.jpg"); }
-.scalecaller          { background-image: url("images/crown crates/panels/8.jpg"); }
-.psijicvault          { background-image: url("images/crown crates/panels/9.jpg"); }
-.hollowjack           { background-image: url("images/crown crates/panels/10.jpg"); }
-.ouroboros            { background-image: url("images/crown crates/panels/11.jpg"); }
-.xanmeer              { background-image: url("images/crown crates/panels/12.jpg"); }
-.steedsbounty         { background-image: url("images/crown crates/panels/14.jpg"); }
-.crownclassics2       { background-image: url("images/crown crates/panels/20.jpg"); }
-.baandaripedlar       { background-image: url("images/crown crates/panels/21.jpg"); }
-.dragonscale          { background-image: url("images/crown crates/panels/24.jpg"); }
-.baandaripreview      { background-image: url("images/crown crates/panels/26.jpg"); }
-.newmoonpreview       { background-image: url("images/crown crates/panels/27.jpg"); }
-.newmoon              { background-image: url("images/crown crates/panels/28.jpg"); }
-.frostatronachpreview { background-image: url("images/crown crates/panels/29.jpg"); }
-.frostatronach        { background-image: url("images/crown crates/panels/30.jpg"); }
-.gloomsporepreview    { background-image: url("images/crown crates/panels/36.jpg"); }
-.gloomspore           { background-image: url("images/crown crates/panels/37.jpg"); }
-.nightfallpreview     { background-image: url("images/crown crates/panels/38.jpg"); }
-.nightfall            { background-image: url("images/crown crates/panels/39.jpg"); }
-.sovngardepreview     { background-image: url("images/crown crates/panels/40.jpg"); }
-.sovngarde            { background-image: url("images/crown crates/panels/41.jpg"); }
-.potentatepreview     { background-image: url("images/crown crates/panels/42.jpg"); }
-.potentate            { background-image: url("images/crown crates/panels/43.jpg"); }
-.unknowndragonscale   { background-image: url("images/crown crates/panels/unknowndragonscale.jpg"); }
-.milestone            { background-image: url("images/misc/panel-200.jpg"); }
-.notfound             { background-image: url("images/misc/panel-404.jpg"); }
-.research             { background-image: url("images/misc/panel-research.jpg"); }
+.stormatronach           { background-image: url("images/crown crates/panels/1.jpg"); }
+.wildhunt                { background-image: url("images/crown crates/panels/2.jpg"); }
+.dwarven                 { background-image: url("images/crown crates/panels/4.jpg"); }
+.reapersharvest          { background-image: url("images/crown crates/panels/5.jpg"); }
+.flameatronach           { background-image: url("images/crown crates/panels/6.jpg"); }
+.scalecaller             { background-image: url("images/crown crates/panels/8.jpg"); }
+.psijicvault             { background-image: url("images/crown crates/panels/9.jpg"); }
+.hollowjack              { background-image: url("images/crown crates/panels/10.jpg"); }
+.ouroboros               { background-image: url("images/crown crates/panels/11.jpg"); }
+.xanmeer                 { background-image: url("images/crown crates/panels/12.jpg"); }
+.steedsbounty            { background-image: url("images/crown crates/panels/14.jpg"); }
+.crownclassics2          { background-image: url("images/crown crates/panels/20.jpg"); }
+.baandaripedlar          { background-image: url("images/crown crates/panels/21.jpg"); }
+.dragonscale             { background-image: url("images/crown crates/panels/24.jpg"); }
+.baandaripreview         { background-image: url("images/crown crates/panels/26.jpg"); }
+.newmoonpreview          { background-image: url("images/crown crates/panels/27.jpg"); }
+.newmoon                 { background-image: url("images/crown crates/panels/28.jpg"); }
+.frostatronachpreview    { background-image: url("images/crown crates/panels/29.jpg"); }
+.frostatronach           { background-image: url("images/crown crates/panels/30.jpg"); }
+.gloomsporepreview       { background-image: url("images/crown crates/panels/36.jpg"); }
+.gloomspore              { background-image: url("images/crown crates/panels/37.jpg"); }
+.nightfallpreview        { background-image: url("images/crown crates/panels/38.jpg"); }
+.nightfall               { background-image: url("images/crown crates/panels/39.jpg"); }
+.sovngardepreview        { background-image: url("images/crown crates/panels/40.jpg"); }
+.sovngarde               { background-image: url("images/crown crates/panels/41.jpg"); }
+.akaviripotentatepreview { background-image: url("images/crown crates/panels/43.jpg"); }
+.akaviripotentate        { background-image: url("images/crown crates/panels/44.jpg"); }
+.ayleid                  { background-image: url("images/crown crates/panels/45.jpg"); }
+.ironatronach            { background-image: url("images/crown crates/panels/46.jpg"); }
+.milestone               { background-image: url("images/misc/panel-200.jpg"); }
+.notfound                { background-image: url("images/misc/panel-404.jpg"); }
+.research                { background-image: url("images/misc/panel-research.jpg"); }
 
 .radiant     { color: #EA5C40; }
 .apex        { color: #C16403; }
@@ -486,7 +488,7 @@ table tr td a {
 	}
 }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 37em) {
 
 	#menu-button {
 		display: inline;
@@ -515,9 +517,6 @@ table tr td a {
 	#menu-button-checkbox:checked + ul li a {
 		display: block;
 	}
-}
-
-@media screen and (max-width: 37em) {
 
 	.wrapper {
 		width: 100%;
