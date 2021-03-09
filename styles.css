@@ -229,7 +229,8 @@ table tr td a {
 .common      { color: #FFFFFF; }
 .discontinued,
 .error       { color: #C64343; }
-.crate .slot { color: #A19CDE; }
+.crate .slot,
+.emote       { color: #A19CDE; }
 .obtained .slot,
 .highlight   { color: #78BEC3; }
 .bonus .slot,
