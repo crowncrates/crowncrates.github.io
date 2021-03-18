@@ -66,12 +66,10 @@ for (var i = 0; i < document.getElementsByClassName("generic-preview").length; i
 // Swap the image from a panel to a card if we enter portrait mode
 function swapPanelAndCard() {
 	if (!isInSwappablePreview) {
-		console.log(0);
 		return;
 	}
 
 	if (isPortraitMode && window.innerWidth >= window.innerHeight) {
-		console.log(1);
 		isPortraitMode = false;
 		var rewardImage = document.getElementById("canvas");
 		rewardImage.src = "images/crate rewards/panels/" + rewardImage.getAttribute("data-reward-id") + ".jpg";
@@ -79,7 +77,6 @@ function swapPanelAndCard() {
 		fadeIn(rewardImage);
 
 	} else if (!isPortraitMode && window.innerWidth < window.innerHeight) {
-		console.log(2);
 		isPortraitMode = true;
 		var rewardImage = document.getElementById("canvas");
 		rewardImage.src = "images/crate rewards/cards/" + rewardImage.getAttribute("data-reward-id") + ".png";
