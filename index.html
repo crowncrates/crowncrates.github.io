@@ -47,36 +47,21 @@
 			<table>
 				<tr>
 					<td class="common row-header"><img src="images/crown crates/icons/3.png" alt="Crown Crate icon">Crown Crate</td>
-					<td class="stat">436,171 crates</td>
+					<td class="stat">452,805 crates</td>
 				</tr>
 				<tr>
 					<td class="common row-header"><img src="images/card backs/icons/normal/3.png" alt="Crown Crate normal card icon">Normal card</td>
-					<td class="stat">1,735,322 cards</td>
+					<td class="stat">1,801,842 cards</td>
 				</tr>
 				<tr>
 					<td class="common row-header"><img src="images/card backs/icons/bonus/3.png" alt="Crown Crate bonus card icon">Bonus card</td>
-					<td class="stat">78,740 cards </td>
+					<td class="stat">81,618 cards </td>
 				</tr>
 				<tr>
 					<td class="common row-header"><img src="images/misc/logo.png" alt="Crown Crate bonus drop icon">Bonus card drop rate</td>
-					<td class="stat">17.16% chance</td>
+					<td class="stat">17.17% chance</td>
 				</tr>
 			</table>
-		</div>
-
-		<h2>March 6th, 2021 - Website Updated!</h2>
-		<div class="wrapper">
-			<p class="bonus-card description">
-				After a long hiatus, I am happy to announce that the website is back in full force and finally up to date.
-				You guys managed to open a staggering 96,166 new crown crates over the past few months--wowee!
-				This increased our total data by almost 30.00%.
-				You can expect to start seeing regular updates to the website and addon again.
-				I apologize for my extended abscence and for any inconvenience the lack of updates may have caused you.
-				Things should be a lot more steady from now on.
-				It's good to be back!
-			</p>
-			<p class="bonus-card description">Until next time!</p>
-			<p class="bonus-card description">- Faunter, Crown Crate Operations Manager</p>
 		</div>
 
 		<h2>Available Crates</h2>
@@ -88,20 +73,26 @@
 				At the moment, it is assumed that the drop rates are constant, have never changed, and are the same for everyone.
 				However, additional research must be done on how chances are increased after a string of bad luck.
 			</p>
-			<div class="major-panel ayleid">
+			<div class="minor-panel ayleid">
 				<a class="panel-link" href="ayleid">
 					<div class="common panel-name">Ayleid Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/45.png" alt="Ayleid Crate icon"></div>
 					<!--<div id="countdown" class="fine panel-text-left">Ending soon</div>-->
-					<div class="bonus-card panel-text-left">Updated!</div>
+					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
+				</a>
+			</div><div class="minor-panel wildhunt">
+				<a class="panel-link" href="wildhunt">
+					<div class="common panel-name">Wild Hunt Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/2.png" alt="Wild Hunt Crate icon"></div>
+					<div id="countdown" class="error panel-text-left">Starting soon</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
 			</div>
 
-			<!-- Timer
+			<!-- Timer -->
 			<script>
 				var currentDate = new Date().getTime();
-				var eventDate = new Date(Date.UTC(2021, 02, 18, 14, 00, 00, 00)).getTime();
+				var eventDate = new Date(Date.UTC(2021, 03, 22, 14, 00, 00, 00)).getTime();
 				var timerEnd = document.getElementById("countdown");
 
 				var tickInterval = setInterval(doCountdownTick, 1000);
@@ -119,16 +110,16 @@
 					var seconds = ("0" + Math.floor((timeLeft % (1000 * 60)) / 1000)).slice(-2);
 
 					if (timeLeft > 0) {
-						timerEnd.innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
+						timerEnd.innerHTML = "Starts in " + days + ":" + hours + ":" + minutes + ":" + seconds;
 					} else {
 						clearInterval(tickInterval);
-						timerEnd.className = "error panel-text-left";
-						timerEnd.innerHTML = "Sale ended";
+						timerEnd.className = "fine panel-text-left";
+						timerEnd.innerHTML = "Sale started";
 					}
 				}
 				doCountdownTick();
 			</script>
-			-->
+			<!-- -->
 		</div>
 
 		<h2>Limited Crates</h2>
@@ -158,28 +149,24 @@
 				<a class="panel-link" href="akaviripotentate">
 					<div class="common panel-name">Akaviri Potentate Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/44.png" alt="Akaviri Potentate Crate icon"></div>
-					<div class="bonus-card panel-text-left">Updated!</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
 			</div><div class="minor-panel akaviripotentatepreview">
 				<a class="panel-link" href="akaviripotentatepreview">
 					<div class="common panel-name">Akaviri Potentate Preview</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/43.png" alt="Akaviri Potentate Preview Crate icon"></div>
-					<div class="bonus-card panel-text-left">Updated!</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
 			</div><div class="minor-panel sovngarde">
 				<a class="panel-link" href="sovngarde">
 					<div class="common panel-name">Sovngarde Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/41.png" alt="Sovngarde Crate icon"></div>
-					<div class="bonus-card panel-text-left">Updated!</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
 			</div><div class="minor-panel sovngardepreview">
 				<a class="panel-link" href="sovngardepreview">
 					<div class="common panel-name">Sovngarde Preview</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/40.png" alt="Sovngarde Preview Crate icon"></div>
-					<div class="bonus-card panel-text-left">Updated!</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
 			</div><div class="minor-panel nightfall">
@@ -284,13 +271,13 @@
 					<div class="panel-icon"><img src="images/crown crates/icons/4.png" alt="Dwarven Crate icon"></div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
-			</div><div class="minor-panel wildhunt">
+			</div><!--<div class="minor-panel wildhunt">
 				<a class="panel-link" href="wildhunt">
 					<div class="common panel-name">Wild Hunt Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/2.png" alt="Wild Hunt Crate icon"></div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
-			</div><div class="minor-panel stormatronach">
+			</div>--><div class="minor-panel stormatronach">
 				<a class="panel-link" href="stormatronach">
 					<div class="common panel-name">Storm Atronach Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/1.png" alt="Storm Atronach Crate icon"></div>
@@ -312,11 +299,11 @@
 			</a>
 			<table>
 				<tr><td class="epic row-header"><img src="images/supporters/Kisira.png" alt="Supporter icon">Kisira ($65)</td></tr>
-				<tr><td class="superior row-header"><img src="images/supporters/Pavel.png" alt="Supporter icon">@PavelSmirnov ($41)<span class="bonus-card"> - Updated!</span></td></tr>
+				<tr><td class="superior row-header"><img src="images/supporters/Pavel.png" alt="Supporter icon">@PavelSmirnov ($41)</td></tr>
 				<tr><td class="superior row-header"><img src="images/supporters/Turelus.png" alt="Supporter icon">Turelus ($40)</td></tr>
 				<tr><td class="fine row-header"><img src="images/supporters/TheeBear.png" alt="Supporter icon">TheeBear ($20)</td></tr>
 				<tr><td class="fine row-header"><img src="images/supporters/Devilmalamute.png" alt="Supporter icon">Devilmalamute ($10)</td></tr>
-				<tr><td class="common row-header"><img src="images/supporters/West.png" alt="Supporter icon">West ($5)<span class="bonus-card"> - New!</span></td></tr>
+				<tr><td class="common row-header"><img src="images/supporters/West.png" alt="Supporter icon">West ($5)</td></tr>
 				<tr><td class="common row-header"><img src="images/supporters/James.png" alt="Supporter icon">James ($2)</td></tr>
 			</table>
 		</div>
