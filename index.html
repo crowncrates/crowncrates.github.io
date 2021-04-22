@@ -84,7 +84,7 @@
 				<a class="panel-link" href="wildhunt">
 					<div class="common panel-name">Wild Hunt Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/2.png" alt="Wild Hunt Crate icon"></div>
-					<div id="countdown" class="error panel-text-left">Starting soon</div>
+					<div id="countdown" class="fine panel-text-left">Ending soon</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
 			</div>
@@ -92,7 +92,7 @@
 			<!-- Timer -->
 			<script>
 				var currentDate = new Date().getTime();
-				var eventDate = new Date(Date.UTC(2021, 03, 22, 14, 00, 00, 00)).getTime();
+				var eventDate = new Date(Date.UTC(2021, 04, 06, 14, 00, 00, 00)).getTime();
 				var timerEnd = document.getElementById("countdown");
 
 				var tickInterval = setInterval(doCountdownTick, 1000);
@@ -110,11 +110,11 @@
 					var seconds = ("0" + Math.floor((timeLeft % (1000 * 60)) / 1000)).slice(-2);
 
 					if (timeLeft > 0) {
-						timerEnd.innerHTML = "Starts in " + days + ":" + hours + ":" + minutes + ":" + seconds;
+						timerEnd.innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
 					} else {
 						clearInterval(tickInterval);
-						timerEnd.className = "fine panel-text-left";
-						timerEnd.innerHTML = "Sale started";
+						timerEnd.className = "error panel-text-left";
+						timerEnd.innerHTML = "Sale ended";
 					}
 				}
 				doCountdownTick();
@@ -318,6 +318,13 @@
 				<a class="panel-link" href="ironatronach">
 					<div class="common panel-name">Iron Atronach Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/46.png" alt="Iron Atronach Crate icon"></div>
+					<div class="error panel-text-left">Datamined</div>
+					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
+				</a>
+			</div><div class="minor-panel jester">
+				<a class="panel-link" href="jester">
+					<div class="common panel-name">Jester Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/47.png" alt="Jester Crate icon"></div>
 					<div class="error panel-text-left">Datamined</div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
