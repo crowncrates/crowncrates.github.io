@@ -73,19 +73,26 @@
 				At the moment, it is assumed that the drop rates are constant, have never changed, and are the same for everyone.
 				However, additional research must be done on how chances are increased after a string of bad luck.
 			</p>
-			<div class="major-panel ayleid">
+			<div class="minor-panel ayleid">
 				<a class="panel-link" href="ayleid">
 					<div class="common panel-name">Ayleid Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/45.png" alt="Ayleid Crate icon"></div>
 					<!--<div id="countdown" class="fine panel-text-left">Ending soon</div>-->
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
+			</div><div class="minor-panel dragonscale">
+				<a class="panel-link" href="dragonscale">
+					<div class="common panel-name">Dragonscale Crates</div>
+					<div class="panel-icon"><img src="images/crown crates/icons/24.png" alt="Dragonscale Crate icon"></div>
+					<div id="countdown" class="error panel-text-left">Starting soon</div>
+					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
+				</a>
 			</div>
 
-			<!-- Timer
+			<!-- Timer -->
 			<script>
 				var currentDate = new Date().getTime();
-				var eventDate = new Date(Date.UTC(2021, 04, 06, 14, 00, 00, 00)).getTime();
+				var eventDate = new Date(Date.UTC(2021, 04, 27, 14, 00, 00, 00)).getTime();
 				var timerEnd = document.getElementById("countdown");
 
 				var tickInterval = setInterval(doCountdownTick, 1000);
@@ -103,16 +110,16 @@
 					var seconds = ("0" + Math.floor((timeLeft % (1000 * 60)) / 1000)).slice(-2);
 
 					if (timeLeft > 0) {
-						timerEnd.innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
+						timerEnd.innerHTML = "Starts in " + days + ":" + hours + ":" + minutes + ":" + seconds;
 					} else {
 						clearInterval(tickInterval);
-						timerEnd.className = "error panel-text-left";
-						timerEnd.innerHTML = "Sale ended";
+						timerEnd.className = "fine panel-text-left";
+						timerEnd.innerHTML = "Sale started";
 					}
 				}
 				doCountdownTick();
 			</script>
-			-->
+			<!-- -->
 		</div>
 
 		<h2>Limited Crates</h2>
@@ -222,13 +229,13 @@
 					<div class="panel-icon"><img src="images/crown crates/icons/26.png" alt="Baandari Pedlar Preview Crate icon"></div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
-			</div><div class="minor-panel dragonscale">
+			</div><!--<div class="minor-panel dragonscale">
 				<a class="panel-link" href="dragonscale">
 					<div class="common panel-name">Dragonscale Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/24.png" alt="Dragonscale Crate icon"></div>
 					<img class="responsive-image" src="images/misc/panel-base.png" alt="Crown Crate panel outline">
 				</a>
-			</div><div class="minor-panel xanmeer">
+			</div>--><div class="minor-panel xanmeer">
 				<a class="panel-link" href="xanmeer">
 					<div class="common panel-name">Xanmeer Crates</div>
 					<div class="panel-icon"><img src="images/crown crates/icons/12.png" alt="Xanmeer Crate icon"></div>
