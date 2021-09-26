@@ -1,3 +1,4 @@
+/*
 // Set the bg to the appropriate position in case of refresh
 scroll();
 
@@ -6,6 +7,7 @@ function scroll() {
 	document.body.setAttribute("style", "background-position: 0px " + (document.documentElement.scrollTop / -4) + "px;");
 }
 window.onscroll = scroll;
+*/
 
 // Different footer if page isn't long enough
 if (document.body.scrollHeight > window.innerHeight) {
